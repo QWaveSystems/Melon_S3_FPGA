@@ -1,5 +1,6 @@
 # Melon_S3_FPGA (Open-Source)
-A WiFi (ESP8266) FPGA Development Kit
+
+A WiFi (ESP8266) FPGA Development Kit.
 
 **LICENSE:**
 

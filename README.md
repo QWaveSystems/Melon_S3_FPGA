@@ -1,7 +1,7 @@
 # Melon_S3_FPGA
 WiFi (ESP8266) FPGA Development Kit
 
-![](http://ftp.qwavesys.com/tmp_pics/ms3.jpg)
+![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
 
 **Board features:**
 

@@ -1,6 +1,6 @@
 # Melon_S3_FPGA (Open-Source)
 
-A WiFi (ESP8266) FPGA Development Kit.
+A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems.
 
 **LICENSE:**
 
@@ -14,6 +14,14 @@ You should have received a copy of the license along with this work. If not, see
 -Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (No-Commercial)
 
 ![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
+
+**How to purchase a board**
+
+https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
+
+**Community Support Forums**
+
+https://www.facebook.com/groups/244230302736445/
 
 **Board features:**
 
@@ -36,14 +44,6 @@ You should have received a copy of the license along with this work. If not, see
 
 -Download .bit file to FPGA and SPI Flash wireless over WiFi.
 
-**How to purchase a board**
-
-https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
-
-**Community Support Forums**
-
-https://www.facebook.com/groups/244230302736445/
-
 **Board design files**
 
 PDF https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/PDF
@@ -53,9 +53,11 @@ Schematic & PCB https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Schema
 Firmware (Arduino C/C++) https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Firmware
 
 **Xilinx ISE support files**
+
 https://github.com/QWaveSystems/Melon_S3_FPGA/blob/master/UCF%20File/Melon_S3.ucf
 
 **Xilinx ISE project examples**
+
 https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
 **LabVIEW FPGA (2014) Examples**

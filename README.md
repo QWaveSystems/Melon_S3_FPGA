@@ -10,4 +10,6 @@ You should have received a copy of the license along with this work. If not, see
 
 These Arduino C/C++ microcontroller libraries (Melon S3 FPGA (ESP8266) Firmware) files are provided under the GNU General Public License Version 3 as found at http://opensource.org/licenses/lgpl-3.0.html.
 
+Maintainers:
+Amornthep Phunsin <amornthep@qwavesys.com>
 www.qwavesys.com

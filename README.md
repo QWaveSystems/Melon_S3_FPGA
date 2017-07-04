@@ -82,8 +82,6 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
 ![](http://ftp.qwavesys.com/tmp_pics/msc04.jpg)
 
-![](http://ftp.qwavesys.com/tmp_pics/msc05.jpg)
-
 **Maintainers:**
 
 Amornthep Phunsin <amornthep@qwavesys.com>

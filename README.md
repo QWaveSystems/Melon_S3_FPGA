@@ -25,7 +25,7 @@ https://www.facebook.com/groups/244230302736445/
 
 **Board features:**
 
-**OTA (Over-The-Air) Download *.bit file to FPGA over the WiFi**
+**OTA (Over-The-Air) Download.bit file to FPGA over the WiFi**
 
 -Xilinx Spartan 3E FPGA (PQG208) - 500K gates,
 (73Kb Distributed RAM, 4 Digital Clock Manager (DCM), 20 Multipliers (18x18), 360 Kb Block RAM)

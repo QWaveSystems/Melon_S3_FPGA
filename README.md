@@ -16,7 +16,8 @@ WiFi (ESP8266) FPGA Development Kit
 -Onboard FPGA cloxk 50MHz
 -GPIOs 56 PINs 3.3V Tolerant - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
 -JTAG Port (*Optional for Program/Debugging)
-*Download .bit file to FPGA and SPI Flash wireless over WiFi.
+
+**Download .bit file to FPGA and SPI Flash wireless over WiFi.**
 
 **How to purchase a board**
 

@@ -48,7 +48,7 @@ https://www.facebook.com/groups/244230302736445/
 
 Arduino compatible source code for FPGA download functionality and Arduino IDE board package also provided to allowing you to easily modify to program the WROOM-02 using Arduino IDE. 
 
-**Required** "Qwave ESP8266 Board Package" http://ftp.qwavesys.com/lvembedded/package_qwavesys_v2_index.json (*Select the Board = "Qwave ESP8266 (LabVIEW)")
+***Required** "Qwave ESP8266 Board Package" http://ftp.qwavesys.com/lvembedded/package_qwavesys_v2_index.json (*Select the Board : **"Qwave ESP8266 (LabVIEW)**")
 
 ![](http://ftp.qwavesys.com/tmp_pics/msc01.png)
 

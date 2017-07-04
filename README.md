@@ -25,6 +25,8 @@ https://www.facebook.com/groups/244230302736445/
 
 **Board features:**
 
+**OTA (Over-The-Air) Download *.bit file to FPGA over the WiFi**
+
 -Xilinx Spartan 3E FPGA (PQG208) - 500K gates,
 (73Kb Distributed RAM, 4 Digital Clock Manager (DCM), 20 Multipliers (18x18), 360 Kb Block RAM)
 
@@ -42,7 +44,15 @@ https://www.facebook.com/groups/244230302736445/
 
 -JTAG Port (*Optional for Program/Debugging)
 
--Download .bit file to FPGA and SPI Flash wireless over WiFi.
+**Arduino compatible Firware**
+
+Arduino compatible source code for FPGA download functionality and Arduino IDE board package also provided to allowing you to easily modify to program the WROOM-02 using Arduino IDE. **Required "Qwave ESP8266 Board Pacakage"
+
+![](http://ftp.qwavesys.com/MelonS3/038.png)
+
+**Support programable using LabVIEW and Raspberry Pi Interface (LINX 3.0)**  *For Home/Education Use ONLY.
+
+![](http://ftp.qwavesys.com/MelonS3/031.png)
 
 **Board design files**
 
@@ -64,6 +74,8 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
 8 bit Counter Example https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW
 8 bit Counter with Raspberry Pi Interface https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW_RaspberryPi_LINX
+
+![](http://ftp.qwavesys.com/MelonS3/030.png)
 
 **Maintainers:**
 

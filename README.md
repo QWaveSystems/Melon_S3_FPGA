@@ -40,15 +40,17 @@ You should have received a copy of the license along with this work. If not, see
 
 https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
 
-**Forums**
+**Community Support Forums**
 
 https://www.facebook.com/groups/244230302736445/
 
 **Board design files**
-PDF https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/PDF
-Schematic & PCB
-Firmware 
 
+PDF https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/PDF
+
+Schematic & PCB https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Schematic_PCB
+
+Firmware (Arduino C/C++) https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Firmware
 
 **Xilinx ISE support files**
 https://github.com/QWaveSystems/Melon_S3_FPGA/blob/master/UCF%20File/Melon_S3.ucf
@@ -56,8 +58,10 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/blob/master/UCF%20File/Melon_S3.uc
 **Xilinx ISE project examples**
 https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
-**LabVIEW FPGA (2014) Example**
+**LabVIEW FPGA (2014) Examples**
 
+8 bit Counter Example https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW
+8 bit Counter with Raspberry Pi Interface https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW_RaspberryPi_LINX
 
 **Maintainers:**
 

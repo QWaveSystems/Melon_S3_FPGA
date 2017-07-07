@@ -13,4 +13,4 @@ C:\Windows\System32\QwaveFpgaLv.dll
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\resource_cache.xml
 
 5.Extract the folder "HDL" to below path.
-C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi\HDL

@@ -1,6 +1,13 @@
-# Melon_S3_FPGA (Open-Source)
+# Melon_S3_FPGA (Open-Source HW)
 
 # A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems.
+
+In order to support our work please consider supporting it with a donation.
+
+https://www.paypal.me/qwavesystems
+
+or support our hardware at https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
+
 
 **LICENSE:**
 

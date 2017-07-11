@@ -6,21 +6,7 @@ In order to support our work please consider supporting it with a donation.
 
 https://www.paypal.me/qwavesystems
 
-or support our hardware at https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
-
-
-**LICENSE:**
-
--Schematics and PCB ﬁles is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-You should have received a copy of the license along with this work. If not, see: http://creativecommons.org/licenses/by-sa/4.0
-
--These Arduino C/C++ ESP8266 microcontroller libraries (Firmware) files are provided under the GNU General Public License Version 3 as found at http://opensource.org/licenses/lgpl-3.0.html.
-
--Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (No-Commercial)
-
-![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
-
-**How to purchase a board**
+**How to get the a developement board**
 
 https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
 
@@ -94,3 +80,14 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 Amornthep Phunsin <amornthep@qwavesys.com>
 
 www.qwavesys.com
+
+**LICENSE:**
+
+-Schematics and PCB ﬁles is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+You should have received a copy of the license along with this work. If not, see: http://creativecommons.org/licenses/by-sa/4.0
+
+-These Arduino C/C++ ESP8266 microcontroller libraries (Firmware) files are provided under the GNU General Public License Version 3 as found at http://opensource.org/licenses/lgpl-3.0.html.
+
+-Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (No-Commercial)
+
+![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)

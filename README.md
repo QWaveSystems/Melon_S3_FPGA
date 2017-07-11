@@ -88,6 +88,6 @@ You should have received a copy of the license along with this work. If not, see
 
 -These Arduino C/C++ ESP8266 microcontroller libraries (Firmware) files are provided under the GNU General Public License Version 3 as found at http://opensource.org/licenses/lgpl-3.0.html.
 
--Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (No-Commercial)
+-Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (Non-Commercial purposes)
 
 ![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)

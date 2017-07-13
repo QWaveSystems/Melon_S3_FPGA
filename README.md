@@ -1,10 +1,8 @@
-# Melon_S3_FPGA (Open-Source)
+# # A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems (OSHW).
 
 ![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
 
-# A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems.
-
-In order to support our work please consider supporting it with a donation.
+In order to support our work please consider supporting it with a donation or purchase the dev kit board.
 
 https://www.paypal.me/qwavesystems
 
@@ -97,7 +95,7 @@ You should have received a copy of the license along with this work. If not, see
 # Melon S3 FPGA Development Board Hardware User Manual
 
 ### Table of Contents
-- Table of Contents
+ 
 - Introduction
 - Board Overview
 - Key Components
@@ -120,3 +118,9 @@ You should have received a copy of the license along with this work. If not, see
    - Block Diagram
    - Voltage Rails
 - Mechanical Specification
+
+***
+
+## Introduction
+
+- The Melon S3 FPGA is open-source, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.

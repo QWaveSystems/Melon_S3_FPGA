@@ -253,11 +253,6 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
  <img src="http://ftp.qwavesys.com/MelonS3/g002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g002.png" width="400"/>       
  
-    - Download the .bit file from **"Bit_File/Fpga.bit"** from this repo. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
-   - Click the "Choose File", > Select the "Fpga.bit". > Click "Update", The bit file will be transfer over the WiFi then upload direcy to flash memory, (You will get "*Update Success!*") After that board it will reset once, Finally you will see the FPGA start-up with the 8-bit counter again.
-   
- <img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/>   
- 
  [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
  
    - There are several command that already created for you to working with file systems over the web browser. It is written using Arduino C/C++ ,Refer to shipped firmware source code in this repository ("Firmware" folder).
@@ -270,8 +265,14 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    - For example we will try to lists the files that currently has in stored in flash memory. Type : **"http://192.168.4.1/files** You will see there are files, The important one is **"Fpga.bit"** file, It's the FPGA bit file that running on the board right now. 
 
-   
 <img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/> 
+
+   - **Now it time to try download the bit file over the WiFi**
+   
+   - Download the .bit file from **"Bit_File/Fpga.bit"** from this repo. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
+   - Click the "Choose File", > Select the "Fpga.bit". > Click "Update", The bit file will be transfer over the WiFi then upload direcy to flash memory, (You will get "*Update Success!*") After that board it will reset once, Finally you will see the FPGA start-up with the 8-bit counter again.
+   
+ <img src="http://ftp.qwavesys.com/MelonS3/g004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g004.png" width="400"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

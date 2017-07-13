@@ -1,4 +1,6 @@
-# Melon_S3_FPGA (Open-Source HW)
+# Melon_S3_FPGA (Open-Source)
+
+![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
 
 # A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems.
 
@@ -90,4 +92,4 @@ You should have received a copy of the license along with this work. If not, see
 
 -Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (Non-Commercial purposes)
 
-![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
+

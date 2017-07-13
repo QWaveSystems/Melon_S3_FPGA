@@ -92,4 +92,31 @@ You should have received a copy of the license along with this work. If not, see
 
 -Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (Non-Commercial purposes)
 
+**********************************************************************************************************
 
+# Melon S3 FPGA Development Board Hardware User Manual
+
+### Table of Contents
+- Table of Contents
+- Introduction
+- Board Overview
+- Key Components
+- System Block Diagram
+- Getting Started
+   - Prerequisites
+   - Starting the board for the first time
+- Component Details
+   - FPGA
+   - ESP8266 WiFi SoC (Micro-controller)
+   - Jumper Setting
+   - USB Ports
+   - DIP Switches
+   - LED Indicators
+   - Additional Functionality
+- Expansion Connectors
+   - Port#1 Expansion Connector
+   - Port#2 Speed Expansion Connector
+- Power Supply Management Overview
+   - Block Diagram
+   - Voltage Rails
+- Mechanical Specification

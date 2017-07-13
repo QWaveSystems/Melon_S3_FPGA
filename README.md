@@ -1,7 +1,5 @@
 # A WiFi FPGA Development Kit (OSHW).
 
-![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
-
 In order to support our work please consider supporting it with a donation or purchase the dev kit board.
 
 https://www.paypal.me/qwavesystems
@@ -241,10 +239,14 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 <img src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" data-canonical-src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" width="500"/>  
 
-   - Plug-in the USB connector to the computer USB port to powered the board. 
-   - Open the Serial Monitor sofware > Select COM port > Pressed the RESET button on the board. This is wha you will get from serial monitor.
+   - Debugging the data at COM port, Put the "ESP-PROG" both jumper to the "Closed" position, By default is "Open"
    
+<img src="http://ftp.qwavesys.com/MelonS3/g000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g000.png" width="250"/>   
    
+   - Plug-in the USB cable to the USB computer port to powered the board. 
+   - Open the Serial Monitor sofware > Select COM port > Set the buad rate to "115200",Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
+   
+<img src="http://ftp.qwavesys.com/MelonS3/g001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g001.png" width="250"/>     
    
    - The WiFi Access Point name like "Melon-xxxxx" will be appear on the network.
    - Connecto the WiFi AP using the default password "88888888"

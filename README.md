@@ -127,8 +127,7 @@ You should have received a copy of the license along with this work. If not, see
 |    3     |      LEDs      |   x8 LED (Green)         |
 |    4     |      DIP SWs      |   x4 DIP Switches                                           |
 |    5     |      Pwr LED      |   3.3V Power LED (Red)                             |
-|    6     |      Jumper      |     FPGA code will STOP if Jumper added, (No jumper by default)
-*Using this jumper as a RESET button in any case that you would like to STOP FPGA from runnning .bit file|
+|    6     |      Jumper      |     FPGA code will STOP if Jumper added, (No jumper by default) Using this jumper as a RESET button in any case that you would like to STOP FPGA from runnning .bit file|
 |    7     |      J901       |   Power Outlet                                            |
 |    8     |     CON4101     |   Micro SD Card Socket                                    |
 |    9     |     CON6501     |   HDMI Type A Port                                        |

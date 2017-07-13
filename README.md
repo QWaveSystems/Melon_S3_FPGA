@@ -272,7 +272,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
    - Download the .bit file from **"Bit_File/Fpga.bit"** from this repo. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
    - Click the "Choose File", > Select the "Fpga.bit". > Click "Update", The bit file will be transfer over the WiFi then upload direcy to flash memory, (You will get "*Update Success!*") After that board it will reset once, Finally you will see the FPGA start-up with the 8-bit counter again.
    
- <img src="http://ftp.qwavesys.com/MelonS3/g004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g004.png" width="400"/>
+<img src="http://ftp.qwavesys.com/MelonS3/g004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g004.png" width="400"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

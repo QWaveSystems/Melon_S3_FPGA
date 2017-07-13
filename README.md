@@ -185,7 +185,7 @@ FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and RPi shileds can be c
    
  **Port 1** The FPGA pin constraints (.ucf) aslo provided.  
    
- <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" width="250"/>  
+ <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" width="350"/>  
    
 ## Getting Started
  

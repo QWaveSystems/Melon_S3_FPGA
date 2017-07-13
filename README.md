@@ -159,10 +159,10 @@ Bottom Side (For Advacnce Users and Special case use ONLY)
 
 FPGA Pin Number vs Connector at Port 1 & Port 2
 
-| Position |    Port 1       | Port 2          |
+| Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|
-|    1     |                 |                 |
-|    2     |                 |                 |
+|    test     |1                 |2                 |test|
+|    test     |3                 |4                 |tesst|
 |    3     |                 |                 |
 |    4     |                 |                 |
 |    5     |                 |                 |

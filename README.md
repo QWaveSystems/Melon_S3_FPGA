@@ -128,10 +128,10 @@ You should have received a copy of the license along with this work. If not, see
 |    4     |      DIP SWs    |   x4 DIP Switches|
 |    5     |      Pwr LED    |   3.3V Power LED (Red)|
 |    6     |     XSTOP Jumper|   FPGA code will STOP if Jumper added (Size 2.5"), Using this jumper as a FPGA stop pin (No jumper by default)|
-|    7     |   Status LED    |   User define LED (Status) at GPIO15 of ESP8266|
+|    7     |   Status LED    |   User define LED (Green) at GPIO15 of ESP8266|
 |    8     |     ESP8266     |   WiFi SoC (ESP8266) Flash 4MB Version|
 |    9     |     Oscilator   |   ABRACON 50 MHz onboard oscilator (50ppm)|
-|    10    |     LED1        |   User define LED at GPIO2 of ESP8266, This LED will be flashing during upload firmware to ESP8266|
+|    10    |     LED1        |   User define LED (Green) at GPIO2 of ESP8266, This LED will be flashing during upload firmware to ESP8266|
 |    11    |     Reset Btn   |   Reset Button for ESP8266|
 |    12    | TX/RX Jumper    |   TX/RX Jumper of ESP8266 and USB CP2104 (Size 2.0"), Refer Jumper setting section|
 |    13    |     USB IC      |   CP2104 UART to USB IC|

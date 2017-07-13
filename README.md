@@ -157,7 +157,8 @@ You should have received a copy of the license along with this work. If not, see
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
-FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and Rpi shileds can be connected to this port)**
+**Port1**
+FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and RPi shileds can be connected to this port)**
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
@@ -181,6 +182,10 @@ FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and Rpi shileds can be c
 |    P15    |35                 |36                 |P12|
 |    P11    |37                 |38                 |P9|
 |    **Ground**    |**39**                 |10                 |P8|
+   
+ **Port 1** The FPGA pin constraints (.ucf) aslo provided.  
+   
+ <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1.png" width="250"/>  
    
 ## Getting Started
  

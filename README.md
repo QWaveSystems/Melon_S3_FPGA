@@ -182,7 +182,7 @@ FPGA Pin Number vs Connector Pins **(RPi shileds can be connected to this port)*
 |    P16    |33                 |**34**                 |**Ground**|
 |    P15    |35                 |36                 |P12|
 |    P11    |37                 |38                 |P9|
-|    **Ground**    |**39**                 |10                 |P8|
+|    **Ground**    |**39**                 |40                 |P8|
    
  **Port 1** : The FPGA pin constraints (.ucf) aslo provided.  
    
@@ -213,7 +213,7 @@ FPGA Pin Number vs Connector Pins
 |    P116    |33                 |**34**                 |**Ground**|
 |    P115    |35                 |36                 |P113|
 |    P112    |37                 |38                 |P109|
-|    **Ground**    |**39**                 |10                 |P108|
+|    **Ground**    |**39**                 |40                 |P108|
    
  **Port 2** : The FPGA pin constraints (.ucf) aslo provided.  
    

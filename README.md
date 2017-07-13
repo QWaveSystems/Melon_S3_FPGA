@@ -161,26 +161,26 @@ FPGA Pin Number vs Connector at Port 1 (RPi board and Rpi shileds can be connect
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
-|    3V3_RP     |1                 |2                 |5V_RP|
-|    test     |3                 |4                 |5V_RP|
-|    3     |5                 |6                 |Ground|
-|    4     |7                 |8                 ||
-|    Ground     |9                 |10                 ||
-|    6     |11                 |12                 ||
-|    7     |13                 |14                 |Ground|
-|    8     |15                 |16                 ||
-|    9     |17                 |18                 ||
-|    10    |19                 |20                 |Ground|
-|    11    |21                 |22                 ||
-|    12    |23                 |24                 ||
-|    Ground    |25                 |26                 ||
-|    14    |27                 |28                 ||
-|    15    |29                 |30                 |Ground|
-|    16    |31                 |32                 ||
-|    3V3-RP    |33                 |34                 |Ground|
-|    18    |35                 |36                 ||
-|    19    |37                 |38                 ||
-|    Ground    |39                 |10                 ||
+|    +3V3_RP     |1                 |2                 |5V_RP|
+|    P50     |3                 |4                 |+5V_RP|
+|    P49     |5                 |6                 |Ground|
+|    P48     |7                 |8                 |P47|
+|    Ground     |9                 |10                 |P42|
+|    P41     |11                 |12                 |P40|
+|    P39     |13                 |14                 |Ground|
+|    P36     |15                 |16                 |P35|
+|    +3V3_RP     |17                 |18                 |P34|
+|    P35    |19                 |20                 |Ground|
+|    P31    |21                 |22                 |P30|
+|    P29    |23                 |24                 |P28|
+|    Ground    |25                 |26                 |P25|
+|    P24    |27                 |28                 |P23|
+|    P22    |29                 |30                 |Ground|
+|    P19    |31                 |32                 |P18|
+|    P16    |33                 |34                 |Ground|
+|    P15    |35                 |36                 |P12|
+|    P11    |37                 |38                 |P9|
+|    Ground    |39                 |10                 |P8|
    
 ## Getting Started
  

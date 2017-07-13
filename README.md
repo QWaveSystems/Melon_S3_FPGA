@@ -116,7 +116,7 @@ You should have received a copy of the license along with this work. If not, see
  
 ## Board Overview
  
- Front Side
+ **Front Side**
  
 <img src="http://ftp.qwavesys.com/MelonS3/melon_front_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_front_ID.png" width="500"/>
  
@@ -141,15 +141,15 @@ You should have received a copy of the license along with this work. If not, see
 |    17    |     TX/RX LEDs  |   TX/RX LED Status of USB IC (CP2104)|
 |    18    |     USB Connector|   USB Connector for +5V input for powered the board or Debug/Programming port for ESP8266|
 
-Bottom Side (For Advacnce Users and Special case use ONLY)
+**Bottom Side** (Solder pad jumper for the users are willing to use with **Raspberry Pi Shileds**)
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" width="500"/>
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** stacked together **at P1 Port**, In special case, You can powered RPi **Shiled** board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** stacked together **at P1 Port**, You can powered RPi **Shileds** board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", Refer schematic for more information|
 |    2     | HSWAP Jumper    |   Set the default state of FPGA Pins, Solder pad jumper is "Open"= Pull-down (by Default), Set the jumper pad to "Closed, (Soldered)"= All the FPGA pins are Pull-Up.|
-|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** are stacked together **at P1 Port**, if you want to powered RPi **Shields**  P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** are stacked together **at P1 Port**, if you want to powered RPi **Shields**  P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", Refer schematic for more information|
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
@@ -157,30 +157,30 @@ Bottom Side (For Advacnce Users and Special case use ONLY)
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
-FPGA Pin Number vs Connector at Port 1 (RPi board and Rpi shileds can be connected to this port)
+FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and Rpi shileds can be connected to this port)**
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
-|    +3V3_RP     |1                 |2                 |5V_RP|
-|    P50     |3                 |4                 |+5V_RP|
-|    P49     |5                 |6                 |Ground|
+|    **+3V3_RP**     |**1**                 |**2**                 |**5V_RP**|
+|    P50     |3                 |**4**                 |**+5V_RP**|
+|    P49     |5                 |**6**                 |**Ground**|
 |    P48     |7                 |8                 |P47|
-|    Ground     |9                 |10                 |P42|
+|    **Ground**     |**9**                |10                 |P42|
 |    P41     |11                 |12                 |P40|
-|    P39     |13                 |14                 |Ground|
+|    P39     |13                 |**14**                 |**Ground**|
 |    P36     |15                 |16                 |P35|
-|    +3V3_RP     |17                 |18                 |P34|
-|    P35    |19                 |20                 |Ground|
+|    **+3V3_RP**     |**17**                 |18                 |P34|
+|    P35    |19                 |**20**                 |**Ground**|
 |    P31    |21                 |22                 |P30|
 |    P29    |23                 |24                 |P28|
-|    Ground    |25                 |26                 |P25|
+|    **Ground**    |**25**                 |26                 |P25|
 |    P24    |27                 |28                 |P23|
-|    P22    |29                 |30                 |Ground|
+|    P22    |29                 |**30**                 |**Ground**|
 |    P19    |31                 |32                 |P18|
-|    P16    |33                 |34                 |Ground|
+|    P16    |33                 |**34**                 |**Ground**|
 |    P15    |35                 |36                 |P12|
 |    P11    |37                 |38                 |P9|
-|    Ground    |39                 |10                 |P8|
+|    **Ground**    |**39**                 |10                 |P8|
    
 ## Getting Started
  

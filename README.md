@@ -162,7 +162,7 @@ FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and RPi shileds can be c
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
-|    **+3V3_RP Using with RPi shields need to set solder pad jumper at bottom side**     |**1**                 |**2**                 |**+5V_RP** Using with RPi shields need to set solder pad jumper at bottom side|
+|    **+3V3_RP** Using with RPi shields need to set solder pad jumper at bottom side    |**1**                 |**2**                 |**+5V_RP** Using with RPi shields need to set solder pad jumper at bottom side|
 |    P50     |3                 |**4**                 |**+5V_RP** Using with RPi shields need to set solder pad jumper at bottom side|
 |    P49     |5                 |**6**                 |**Ground**|
 |    P48     |7                 |8                 |P47|

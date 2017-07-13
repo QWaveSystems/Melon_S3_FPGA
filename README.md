@@ -233,24 +233,27 @@ FPGA Pin Number (Pxx) vs Connector Pins
  
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
  
-## Getting Started
+## Getting Started : Starting the board for the first time
 
-- **Starting the board for the first time**
+   - Plug-in the USB cable to the USB computer port to powered the board, You will get the 8-bit counter (up) at onboard LEDs with speed around 100ms.
 
 <img src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" data-canonical-src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" width="500"/>  
 
-   - Debugging the data at COM port, Put the "ESP-PROG" both jumper to the "Closed" position, By default is "Open"
+   - Debugging the data at COM port, Put the "ESP-PROG" both jumper to the "Closed" position,
    
 <img src="http://ftp.qwavesys.com/MelonS3/g000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g000.png" width="400"/>   
    
-   - Plug-in the USB cable to the USB computer port to powered the board. 
-   - Open the Serial Monitor sofware > Select COM port > Set the buad rate to "115200",Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
+   -  
+   - Open the Serial Monitor sofware > Select COM port > Set the buad rate to **"115200"**,Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
    
 <img src="http://ftp.qwavesys.com/MelonS3/g001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g001.png" width="400"/>     
    
-   - The WiFi Access Point name like "Melon-xxxxx" will be appear on the network.
-   - Connecto the WiFi AP using the default password "88888888"
-   - etet
+   - Right now the board is act like **WiFi Access Point name "Melon-xxxxx"**, You can seaching it will be appear on the network.
+   - Connecto the WiFi AP using the default password **"88888888"**
+   - After that open the web browser, Then type **"192.168.4.1"**
+   
+ <img src="http://ftp.qwavesys.com/MelonS3/g002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g002.png" width="400"/>       
+   
    - trttet
    - etet
    - trttet

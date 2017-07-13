@@ -36,6 +36,8 @@ https://www.facebook.com/groups/244230302736445/
 
  The **Melon S3 FPGA is open-source**, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.
 
+<img src="http://ftp.qwavesys.com/MelonS3/melon_top.png.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_top.png.png" width="450"/>
+
 - **Specification**
 
    - OTA (Over-The-Air) Download.bit file to FPGA over the WiFi

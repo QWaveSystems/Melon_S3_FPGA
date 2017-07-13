@@ -102,8 +102,8 @@ You should have received a copy of the license along with this work. If not, see
    - WiFi 2.4GHz SoC-WROOM-02, 32-bit MCU (Arduino Compatible) Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
    - Flash 4MB SPI Flash which is 1MB for MCU Firmware and 3MB for FPGA Bit space.
    - 8 Users LEDs, 4 DIP Switch user button, 1 Reset button
-   - Onboard FPGA cloxk 50MHz
-   - GPIOs 56 PINs 3.3V Tolerant - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
+   - Onboard FPGA clock 50MHz
+   - GPIOs 56 PINs *3.3V Tolerant* - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
    - JTAG Port (*Optional for Program/Debugging)
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)

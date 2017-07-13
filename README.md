@@ -158,7 +158,7 @@ You should have received a copy of the license along with this work. If not, see
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
 **Port1**
-FPGA Pin Number vs Connector Pin at Port 1 **(RPi board and RPi shileds can be connected to this port)**
+FPGA Pin Number vs Connector Pin at Port 1 **(RPi shileds can be connected to this port)**
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|

@@ -287,6 +287,3 @@ You should have received a copy of the license along with this work. If not, see
 ## Maintainers
 
 Amornthep Phunsin <amornthep@qwavesys.com>
-
-www.qwavesys.com
-   - 

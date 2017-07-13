@@ -141,6 +141,8 @@ You should have received a copy of the license along with this work. If not, see
 |    17    |     TX/RX LEDs  |   TX/RX LED Status of USB IC (CP2104)|
 |    18    |     USB Connector|   USB Connector for +5V input for powered the board or Debug/Programming port for ESP8266|
 
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
 **Bottom Side** (Solder pad jumper for the users are willing to use with **Raspberry Pi Shileds**)
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" width="500"/>
@@ -160,6 +162,8 @@ You should have received a copy of the license along with this work. If not, see
 USB TX/RX and ESP TX/RX pins also routed to FPGA refer the diagram below, You can writed the FPGA code to set jumper internally. In this case you can re-program the ESP8266 firmware without any jumpers.
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" width="500"/>
+
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 ## Pin Definition
 
@@ -195,7 +199,9 @@ FPGA Pin Number (Pxx) vs Connector Pins **(RPi shileds can be connected to this 
  **Port 1** : The FPGA pin constraints (.ucf) for Xilinx ISE and FPGA IO for LabVIEW aslo provide. 
    
  <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" width="350"/> <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_lv.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_lv.png" width="250"/>   
-   
+  
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+  
 **Port2**
 
 FPGA Pin Number (Pxx) vs Connector Pins
@@ -226,10 +232,23 @@ FPGA Pin Number (Pxx) vs Connector Pins
  **Port 2** : The FPGA pin constraints (.ucf) for Xilinx ISE and FPGA IO for LabVIEW aslo provide.  
    
  <img src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" width="350"/> <img src="http://ftp.qwavesys.com/MelonS3/ucf_p2_lv.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p2_lv.png" width="250"/>  
-   
-## Getting Started
  
-   - Prerequisites
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+ 
+## Getting Started
+
+- **Starting the board for the first time**
+
+<img src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" data-canonical-src="http://ftp.qwavesys.com/tmp_pics/ms30.jpg" width="500"/>  
+
+   - Plug-in the USB connector to the computer USB port to powered the board. 
+   - Open the Serial Monitor sofware > Select COM port > Pressed the RESET button on the board. This is wha you will get from serial monitor.
    
    
-   - Starting the board for the first time
+   
+   - The WiFi Access Point name like "Melon-xxxxx" will be appear on the network.
+   - Connecto the WiFi AP using the default password "88888888"
+   - etet
+   - trttet
+   - etet
+   - trttet

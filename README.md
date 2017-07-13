@@ -122,29 +122,24 @@ You should have received a copy of the license along with this work. If not, see
  
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     JTAG Port   | Optional for Programing&Debuging using Xilinx ISE Software|
-|    2     |      FPGA      |   Xilinx Spartan 3E 500K                                                |
-|    3     |      LEDs      |   x8 LED (Green)         |
-|    4     |      DIP SWs      |   x4 DIP Switches                                           |
-|    5     |      Pwr LED      |   3.3V Power LED (Red)                             |
-|    6     |      Jumper      |     FPGA code will STOP if Jumper added, (No jumper by default) Using this jumper as a RESET button in any case that you would like to STOP FPGA from runnning .bit file|
-|    7     |      J901       |   Power Outlet                                            |
-|    8     |     CON4101     |   Micro SD Card Socket                                    |
-|    9     |     CON6501     |   HDMI Type A Port                                        |
-|    10    |     CON7101     |   High Speed Connector                                    |
-|    11    |     CON6403     |   Micro USB Type B Connecto                               |
-|    12    | LED3201-LED3204 |   Can be defined by user                                  |
-|          |     LED3205     |   LED3205 is WLAN LED                                     |
-|          |     LED3206     |   LED3206 is Bluetooth LED                                |
-|    13    |     CON6402     |   USB Host2 Connector                                     |
-|    14    |     CON6401     |   USB Host1 Connector                                     |
-|    15    |      SW3201     |   Power Button                                            |
-|          |      SW3202     |   Vol up Button                                           |
-|          |      SW3203     |   Vol down Button                                         |
-|          |      SW3204     |   Reset Button                                            |
-|    16    |     ANT5001     |   Bluetooth/WLAN Antenna                                  |
-|    17    |     CON5006     |   GPS Antenna connector                                   |
-|    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
+|    1     |     JTAG Port   |   Optional for Programing & Debuging using Xilinx ISE Software|
+|    2     |      FPGA       |   Xilinx FPGA Spartan 3E 500K|
+|    3     |      LEDs       |   x8 LED (Green)|
+|    4     |      DIP SWs    |   x4 DIP Switches|
+|    5     |      Pwr LED    |   3.3V Power LED (Red)|
+|    6     |     XSTOP Jumper|   FPGA code will STOP if Jumper added (Size 2.5"), Using this jumper as a FPGA stop pin (No jumper by default)|
+|    7     |   Status LED    |   User define LED (Status) at GPIO15 of ESP8266|
+|    8     |     ESP8266     |   WiFi SoC (ESP8266) Flash 4MB Version|
+|    9     |     Oscilator   |   ABRACON 50 MHz onboard oscilator (50ppm)|
+|    10    |     LED1        |   User define LED at GPIO2 of ESP8266, This LED will be flashing during upload firmware to ESP8266|
+|    11    |     Reset Btn   |   Reset Button for ESP8266|
+|    12    | TX/RX Jumper    |   TX/RX Jumper of ESP8266 and USB CP2104 (Size 2.0"), Refer Jumper setting section|
+|    13    |     USB IC      |   CP2104 UART to USB IC|
+|    14    |     USB LED     |   USB Plug-in LED Status (VUSB)|
+|    15    |     Done LED    |   FPGA Status LED if .bit file downloaded to FPGA without error|
+|    16    |     VIN 5V      |   External Power supply +5V can powered the board from this pin|
+|    17    |     TX/RX LEDs  |   TX/RX LED Status of USB IC (CP2104)|
+|    18    |     USB Connector|   USB Connector for +5V input for powered the board or Debug/Programming port for ESP8266|
 
 Bottom Side
 
@@ -152,9 +147,9 @@ Bottom Side
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     CON7001     |   Low Speed Expansion Connector                           |
-|    2     |      U4001      |   8GB EMMC                                                |
-|    3     |      U1001      |   MediaTek X20 MT6797 Soc + 2GB LPDDR3              |
+|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi stacked together at P1 Port, You can powered RPi board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, Please setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    2     | HSWAP Jumper    |   Set default state of FPGA Pins, Jumper is "OFF"=Pull-down (Default), Jumper is "ON"=Pull-Up.|
+|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi are stacked together at P1 Port, In special case, if you want to powered RPi board P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, Please setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

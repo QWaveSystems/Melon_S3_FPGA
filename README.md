@@ -158,7 +158,8 @@ You should have received a copy of the license along with this work. If not, see
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
 **Port1**
-FPGA Pin Number vs Connector Pin at Port 1 **(RPi shileds can be connected to this port)**
+
+FPGA Pin Number vs Connector Pins **(RPi shileds can be connected to this port)**
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
@@ -183,37 +184,38 @@ FPGA Pin Number vs Connector Pin at Port 1 **(RPi shileds can be connected to th
 |    P11    |37                 |38                 |P9|
 |    **Ground**    |**39**                 |10                 |P8|
    
- **Port 1** The FPGA pin constraints (.ucf) aslo provided.  
+ **Port 1** : The FPGA pin constraints (.ucf) aslo provided.  
    
  <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" width="350"/>  
    
 **Port2**
-FPGA Pin Number vs Connector Pin at Port 2
+
+FPGA Pin Number vs Connector Pins
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
 |    **+3V3**     |**1**                 |**2**                 |**+5V**|
-|    P50     |3                 |**4**                 |**+5V**|
-|    P49     |5                 |**6**                 |**Ground**|
-|    P48     |7                 |8                 |P47|
-|    **Ground**     |**9**                |10                 |P42|
-|    P41     |11                 |12                 |P40|
-|    P39     |13                 |**14**                 |**Ground**|
-|    P36     |15                 |16                 |P35|
-|    **+3V3**     |**17**                 |18                 |P34|
-|    P35    |19                 |**20**                 |**Ground**|
-|    P31    |21                 |22                 |P30|
-|    P29    |23                 |24                 |P28|
-|    **Ground**    |**25**                 |26                 |P25|
-|    P24    |27                 |28                 |P23|
-|    P22    |29                 |**30**                 |**Ground**|
-|    P19    |31                 |32                 |P18|
-|    P16    |33                 |**34**                 |**Ground**|
-|    P15    |35                 |36                 |P12|
-|    P11    |37                 |38                 |P9|
-|    **Ground**    |**39**                 |10                 |P8|
+|    P153     |3                 |**4**                 |**+5V**|
+|    P152    |5                 |**6**                 |**Ground**|
+|    P150     |7                 |8                 |P151|
+|    **Ground**     |**9**                |10                 |P147|
+|    P146     |11                 |12                 |P145|
+|    P144     |13                 |**14**                 |**Ground**|
+|    P139     |15                 |16                 |P140|
+|    **+3V3**     |**17**                 |18                 |P138|
+|    P137   |19                 |**20**                 |**Ground**|
+|    P133    |21                 |22                 |P132|
+|    P129    |23                 |24                 |P128|
+|    **Ground**    |**25**                 |26                 |P127|
+|    P126    |27                 |28                 |P123|
+|    P122    |29                 |**30**                 |**Ground**|
+|    P120    |31                 |32                 |P119|
+|    P116    |33                 |**34**                 |**Ground**|
+|    P115    |35                 |36                 |P113|
+|    P112    |37                 |38                 |P109|
+|    **Ground**    |**39**                 |10                 |P108|
    
- **Port 2** The FPGA pin constraints (.ucf) aslo provided.  
+ **Port 2** : The FPGA pin constraints (.ucf) aslo provided.  
    
  <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" width="350"/>  
    

@@ -242,18 +242,28 @@ FPGA Pin Number (Pxx) vs Connector Pins
    - Debugging the data at COM port, Put the "ESP-PROG" both jumper to the "Closed" position,
    
 <img src="http://ftp.qwavesys.com/MelonS3/g000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g000.png" width="400"/>   
-   
-   -  
-   - Open the Serial Monitor sofware > Select COM port > Set the buad rate to **"115200"**,Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
+     
+   - Open the Serial Monitor software > Select COM port > Set the buad rate to **"115200"**,Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
    
 <img src="http://ftp.qwavesys.com/MelonS3/g001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g001.png" width="400"/>     
    
-   - Right now the board is act like **WiFi Access Point name "Melon-xxxxx"**, You can seaching it will be appear on the network.
-   - Connecto the WiFi AP using the default password **"88888888"**
-   - After that open the web browser, Then type **"192.168.4.1"**
+   - Right now the board is act like **WiFi Access Point name "Melon-xxxxx"**, Re-scanning the WiFi, its will be appear on the network.
+   - Connect to the **"Melon-xxxxx"** using the default password **"88888888"**
+   - After that open the web browser, Then goto main webpage **"192.168.4.1"**
    
  <img src="http://ftp.qwavesys.com/MelonS3/g002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g002.png" width="400"/>       
    
-   - trttet
-   - etet
+   - There are several command that already created for you to working with file systems over the web browser. It is written using Arduino C/C++ ,Refer to shipped firmware source code in this repository ("Firmware" folder).
+   
+     - ./files  (List the files inside flash memory)
+     - ./startup (Set the config file to load FPGA code at startup)
+     - ./unstartup (Unset the config file to load FPGA code at startup)
+     - ./delete?file=[File Name] (For example : http://192.168.4.1/delete?file=Fpga.bit)
+     - ./[File Name] To view or download the file (For example : http://192.168.4.1/config.json)
+   
+   - For example we will try to lists the files that currently has in stored in flash memory. Type : **"http://192.168.4.1/files** You will see there are files, The important one is **"Fpga.bit"** file, It's the FPGA bit file that running on the board right now. 
+   
+    <img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/>  
+   
+   
    - trttet

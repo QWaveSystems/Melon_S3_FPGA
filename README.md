@@ -1,4 +1,4 @@
-# # A WiFi (ESP8266) FPGA Development Kit by Q-Wave Systems (OSHW).
+# A WiFi FPGA Development Kit (OSHW).
 
 ![](http://ftp.qwavesys.com/tmp_pics/ms30.jpg)
 
@@ -124,3 +124,68 @@ You should have received a copy of the license along with this work. If not, see
 ## Introduction
 
 - The Melon S3 FPGA is open-source, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.
+
+[Back to top](#README.md)
+
+## System Block Diagram
+ 
+## Board Overview
+ 
+ | Position |    Reference    | Description                                               |
+|:--------:|:---------------:|:----------------------------------------------------------|
+|    1     |     CON7001     |   Low Speed Expansion Connector                           |
+|    2     |      U4001      |   8GB EMMC                                                |
+|    3     |      U1001      |   MediaTek X20 MT6797 Soc + 2GB LPDDR3              |
+|    4     |      U2001      |   PMIC  MT6351                                            |
+|    5     |      U1001      |   Analog Expansion Connector                              |
+|    6     |      U5003      |   WLAN/Bluetooth/GPS                                      |
+|    7     |      J901       |   Power Outlet                                            |
+|    8     |     CON4101     |   Micro SD Card Socket                                    |
+|    9     |     CON6501     |   HDMI Type A Port                                        |
+|    10    |     CON7101     |   High Speed Connector                                    |
+|    11    |     CON6403     |   Micro USB Type B Connecto                               |
+|    12    | LED3201-LED3204 |   Can be defined by user                                  |
+|          |     LED3205     |   LED3205 is WLAN LED                                     |
+|          |     LED3206     |   LED3206 is Bluetooth LED                                |
+|    13    |     CON6402     |   USB Host2 Connector                                     |
+|    14    |     CON6401     |   USB Host1 Connector                                     |
+|    15    |      SW3201     |   Power Button                                            |
+|          |      SW3202     |   Vol up Button                                           |
+|          |      SW3203     |   Vol down Button                                         |
+|          |      SW3204     |   Reset Button                                            |
+|    16    |     ANT5001     |   Bluetooth/WLAN Antenna                                  |
+|    17    |     CON5006     |   GPS Antenna connector                                   |
+|    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
+
+## Pin Definition
+
+| Position |    Reference    | Description                                               |
+|:--------:|:---------------:|:----------------------------------------------------------|
+|    1     |     CON7001     |   Low Speed Expansion Connector                           |
+|    2     |      U4001      |   8GB EMMC                                                |
+|    3     |      U1001      |   MediaTek X20 MT6797 Soc + 2GB LPDDR3              |
+|    4     |      U2001      |   PMIC  MT6351                                            |
+|    5     |      U1001      |   Analog Expansion Connector                              |
+|    6     |      U5003      |   WLAN/Bluetooth/GPS                                      |
+|    7     |      J901       |   Power Outlet                                            |
+|    8     |     CON4101     |   Micro SD Card Socket                                    |
+|    9     |     CON6501     |   HDMI Type A Port                                        |
+|    10    |     CON7101     |   High Speed Connector                                    |
+|    11    |     CON6403     |   Micro USB Type B Connecto                               |
+|    12    | LED3201-LED3204 |   Can be defined by user                                  |
+|          |     LED3205     |   LED3205 is WLAN LED                                     |
+|          |     LED3206     |   LED3206 is Bluetooth LED                                |
+|    13    |     CON6402     |   USB Host2 Connector                                     |
+|    14    |     CON6401     |   USB Host1 Connector                                     |
+|    15    |      SW3201     |   Power Button                                            |
+|          |      SW3202     |   Vol up Button                                           |
+|          |      SW3203     |   Vol down Button                                         |
+|          |      SW3204     |   Reset Button                                            |
+|    16    |     ANT5001     |   Bluetooth/WLAN Antenna                                  |
+|    17    |     CON5006     |   GPS Antenna connector                                   |
+|    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
+   
+## Getting Started
+ 
+   - Prerequisites
+   - Starting the board for the first time

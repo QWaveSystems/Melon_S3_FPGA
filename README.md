@@ -141,15 +141,15 @@ You should have received a copy of the license along with this work. If not, see
 |    17    |     TX/RX LEDs  |   TX/RX LED Status of USB IC (CP2104)|
 |    18    |     USB Connector|   USB Connector for +5V input for powered the board or Debug/Programming port for ESP8266|
 
-Bottom Side
+Bottom Side (For Advacnce Users and Special case use ONLY)
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" width="500"/>
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi stacked together at P1 Port, You can powered RPi board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, Please setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi stacked together at P1 Port, In special case, You can powered RPi board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
 |    2     | HSWAP Jumper    |   Set default state of FPGA Pins, Jumper is "OFF"=Pull-down (Default), Jumper is "ON"=Pull-Up.|
-|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi are stacked together at P1 Port, In special case, if you want to powered RPi board P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, Please setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi are stacked together at P1 Port, if you want to powered RPi board P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

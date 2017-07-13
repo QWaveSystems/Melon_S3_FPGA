@@ -157,30 +157,30 @@ Bottom Side (For Advacnce Users and Special case use ONLY)
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
-FPGA Pin Number vs Connector at Port 1 & Port 2
+FPGA Pin Number vs Connector at Port 1 (RPi board and Rpi shileds can be connected to this port)
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
-|    test     |1                 |2                 |test|
-|    test     |3                 |4                 |tesst|
-|    3     |                 |                 ||
-|    4     |                 |                 ||
-|    5     |                 |                 ||
-|    6     |                 |                 ||
-|    7     |                 |                 ||
-|    8     |                 |                 ||
-|    9     |                 |                 ||
-|    10    |                 |                 ||
-|    11    |                 |                 ||
-|    12    |                 |                 ||
-|    13    |                 |                 ||
-|    14    |                 |                 ||
-|    15    |                 |                 ||
-|    16    |                 |                 ||
-|    17    |                 |                 ||
-|    18    |                 |                 ||
-|    19    |                 |                 ||
-|    20    |                 |                 ||
+|    3V3_RP     |1                 |2                 |5V_RP|
+|    test     |3                 |4                 |5V_RP|
+|    3     |5                 |6                 |Ground|
+|    4     |7                 |8                 ||
+|    Ground     |9                 |10                 ||
+|    6     |11                 |12                 ||
+|    7     |13                 |14                 |Ground|
+|    8     |15                 |16                 ||
+|    9     |17                 |18                 ||
+|    10    |19                 |20                 |Ground|
+|    11    |21                 |22                 ||
+|    12    |23                 |24                 ||
+|    Ground    |25                 |26                 ||
+|    14    |27                 |28                 ||
+|    15    |29                 |30                 |Ground|
+|    16    |31                 |32                 ||
+|    3V3-RP    |33                 |34                 |Ground|
+|    18    |35                 |36                 ||
+|    19    |37                 |38                 ||
+|    Ground    |39                 |10                 ||
    
 ## Getting Started
  

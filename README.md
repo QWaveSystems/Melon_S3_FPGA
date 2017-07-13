@@ -153,6 +153,14 @@ You should have received a copy of the license along with this work. If not, see
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
+## TX/RX Jumper Setting
+
+USB-ESP TX/RX Jumper need to be setting, JumperTX/RX are "Open" by Default, In order to re-program ESP8266 firmware, The jumper need ti be inserted (Closed).
+
+USB TX/RX and ESP TX/RX also routed to FPGA refer the diagram below, You can writed the FPGA code to set jumper internally.
+
+<img src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" width="500"/>
+
 ## Pin Definition
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
@@ -222,4 +230,6 @@ FPGA Pin Number (Pxx) vs Connector Pins
 ## Getting Started
  
    - Prerequisites
+   
+   
    - Starting the board for the first time

@@ -241,12 +241,12 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
    - Debugging the data at COM port, Put the "ESP-PROG" both jumper to the "Closed" position, By default is "Open"
    
-<img src="http://ftp.qwavesys.com/MelonS3/g000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g000.png" width="350"/>   
+<img src="http://ftp.qwavesys.com/MelonS3/g000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g000.png" width="400"/>   
    
    - Plug-in the USB cable to the USB computer port to powered the board. 
    - Open the Serial Monitor sofware > Select COM port > Set the buad rate to "115200",Then pressed the "RESET" button on the board. This is what you will get from serial monitor.
    
-<img src="http://ftp.qwavesys.com/MelonS3/g001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g001.png" width="350"/>     
+<img src="http://ftp.qwavesys.com/MelonS3/g001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g001.png" width="400"/>     
    
    - The WiFi Access Point name like "Melon-xxxxx" will be appear on the network.
    - Connecto the WiFi AP using the default password "88888888"

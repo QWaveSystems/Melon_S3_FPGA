@@ -159,7 +159,7 @@ You should have received a copy of the license along with this work. If not, see
 
 **Port1**
 
-FPGA Pin Number vs Connector Pins **(RPi shileds can be connected to this port)**
+FPGA Pin Number (Pxx) vs Connector Pins **(RPi shileds can be connected to this port)**
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|
@@ -190,7 +190,7 @@ FPGA Pin Number vs Connector Pins **(RPi shileds can be connected to this port)*
    
 **Port2**
 
-FPGA Pin Number vs Connector Pins
+FPGA Pin Number (Pxx) vs Connector Pins
 
 | Description |   Pin Number       | Pin Number          | Description          |
 |:--------:|:---------------:|:---------------:|:---------------:|

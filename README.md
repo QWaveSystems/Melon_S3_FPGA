@@ -155,7 +155,7 @@ You should have received a copy of the license along with this work. If not, see
 
 ## TX/RX Jumper Setting
 
-"ESP-PROGRAM" TX/RX Jumper is setted to "Open" by Default, In order to re-program ESP8266 firmware, The both jumpers (TX/RX) need to be inserted (Closed).
+"ESP-PROGRAM" TX/RX Jumper is set to "Open" by Default, In order to re-program ESP8266 firmware, The both jumpers (TX/RX) need to be inserted (Closed).
 
 USB TX/RX and ESP TX/RX pins also routed to FPGA refer the diagram below, You can writed the FPGA code to set jumper internally. In this case you can re-program the ESP8266 firmware without any jumpers.
 

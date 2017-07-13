@@ -71,10 +71,6 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
 ![](http://ftp.qwavesys.com/tmp_pics/msc03.png)
 
-**Hardware Pin-Out**
-
-![](http://ftp.qwavesys.com/tmp_pics/msc04.jpg)
-
 **Maintainers:**
 
 Amornthep Phunsin <amornthep@qwavesys.com>
@@ -112,8 +108,8 @@ You should have received a copy of the license along with this work. If not, see
    - LED Indicators
    - Additional Functionality
 - Expansion Connectors
-   - Port#1 Expansion Connector
-   - Port#2 Speed Expansion Connector
+   - Port#1 Expansion Connector (40 Pin-Raspberry Pi Compatible)
+   - Port#2 Expansion Connector (40 Pin-Raspberry Pi Compatible)
 - Power Supply Management Overview
    - Block Diagram
    - Voltage Rails
@@ -124,6 +120,18 @@ You should have received a copy of the license along with this work. If not, see
 ## Introduction
 
 - The Melon S3 FPGA is open-source, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.
+
+- **Specification**
+  -OTA (Over-The-Air) Download.bit file to FPGA over the WiFi
+  -Xilinx Spartan 3E FPGA (PQG208) - 500K gates,
+(73Kb Distributed RAM, 4 Digital Clock Manager (DCM), 20 Multipliers (18x18), 360 Kb Block RAM)
+  -Onboard USB-UART (Silicon Labs) CP2104 for Configuration, Debugging and Power.
+  -WiFi 2.4GHz SoC-WROOM-02, 32-bit MCU (Arduino Compatible) Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
+  -Flash 4MB SPI Flash which is 1MB for MCU Firmware and 3MB for FPGA Bit space.
+  -8 Users LEDs, 4 DIP Switch user button, 1 Reset button
+  -Onboard FPGA cloxk 50MHz
+  -GPIOs 56 PINs 3.3V Tolerant - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
+  -JTAG Port (*Optional for Program/Debugging)
 
 [Back to top](#README.md)
 
@@ -158,6 +166,8 @@ You should have received a copy of the license along with this work. If not, see
 |    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
 
 ## Pin Definition
+
+![](http://ftp.qwavesys.com/tmp_pics/msc04.jpg)
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|

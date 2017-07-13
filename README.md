@@ -75,14 +75,16 @@ You should have received a copy of the license along with this work. If not, see
    - Specification
 - System Block Diagram
 - Board Overview
+- TX/RX Jumper Setting
 - Pin Definition
 - Getting Started
    - Prerequisites
    - Starting the board for the first time
-   - Programming Firmware (ESP8266)
-   - FPGA Development using Xilinx ISE Webpack
-   - FPGA Development using LabVIEW FPGA
-   - FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
+- WiFi Uploader (Upload .bit file over the WiFi)
+- Programming ESP8266 Firmware
+- FPGA Development using Xilinx ISE Webpack
+- FPGA Development using LabVIEW FPGA
+- FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
 
 ***
@@ -120,10 +122,10 @@ You should have received a copy of the license along with this work. If not, see
  
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     CON7001     |   Low Speed Expansion Connector                           |
-|    2     |      U4001      |   8GB EMMC                                                |
-|    3     |      U1001      |   MediaTek X20 MT6797 Soc + 2GB LPDDR3              |
-|    4     |      U2001      |   PMIC  MT6351                                            |
+|    1     |     JTAG Port   | Optional for Programing&Debuging using Xilinx ISE Software|                          |
+|    2     |      FPGA      |   Xilinx Spartan 3E 500K                                                |
+|    3     |      LEDs      |   x8 LED (Green)         |
+|    4     |      DIP SW      |   x4 DIP Switches                                           |
 |    5     |      U1001      |   Analog Expansion Connector                              |
 |    6     |      U5003      |   WLAN/Bluetooth/GPS                                      |
 |    7     |      J901       |   Power Outlet                                            |

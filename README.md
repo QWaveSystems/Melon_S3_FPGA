@@ -262,7 +262,8 @@ FPGA Pin Number (Pxx) vs Connector Pins
      - **./[File Name]** To view or download the file (For example : http://192.168.4.1/config.json)
    
    - For example we will try to lists the files that currently has in stored in flash memory. Type : **"http://192.168.4.1/files** You will see there are files, The important one is **"Fpga.bit"** file, It's the FPGA bit file that running on the board right now. 
+
    
- <img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/>  
-   
+<img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/> 
+
    - trttet

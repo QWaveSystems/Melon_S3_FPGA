@@ -99,7 +99,7 @@ You should have received a copy of the license along with this work. If not, see
    - **Xilinx Spartan 3E FPGA (PQG208) - 500K gates**,
 (73Kb Distributed RAM, 4 Digital Clock Manager (DCM), 20 Multipliers (18x18), 360 Kb Block RAM)
    - Onboard USB-UART (Silicon Labs) CP2104 for Configuration, Debugging and Power.
-   - **WiFi 2.4GHz SoC-WROOM-02, 32-bit MCU (Arduino Compatible)** Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
+   - **MCU WROOM-02 (ESP8266), WiFi 2.4GHz + 32-bit MCU (Arduino Compatible)** Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
    - Flash 4MB SPI Flash which is 1MB for MCU Firmware and 3MB for FPGA Bit space.
    - 8 Users LEDs, 4 DIP Switch user button, 1 Reset button
    - Onboard FPGA clock 50MHz

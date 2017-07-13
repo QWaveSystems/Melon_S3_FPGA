@@ -155,7 +155,7 @@ Bottom Side (For Advacnce Users and Special case use ONLY)
 
 ## Pin Definition
 
-<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout02.png" width="500"/>
 
 FPGA Pin Number vs Connector at Port 1 & Port 2
 

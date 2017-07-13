@@ -184,7 +184,7 @@ FPGA Pin Number (Pxx) vs Connector Pins **(RPi shileds can be connected to this 
 |    P11    |37                 |38                 |P9|
 |    **Ground**    |**39**                 |40                 |P8|
    
- **Port 1** : The FPGA pin constraints (.ucf) aslo provided.  
+ **Port 1** : The FPGA pin constraints (.ucf) for Xilinx ISE and FPGA IO for LabVIEW aslo provide. 
    
  <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" width="350"/>  
    
@@ -215,9 +215,9 @@ FPGA Pin Number (Pxx) vs Connector Pins
 |    P112    |37                 |38                 |P109|
 |    **Ground**    |**39**                 |40                 |P108|
    
- **Port 2** : The FPGA pin constraints (.ucf) aslo provided.  
+ **Port 2** : The FPGA pin constraints (.ucf) for Xilinx ISE and FPGA IO for LabVIEW aslo provide.  
    
- <img src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" width="350"/>  
+ <img src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" width="350"/> <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_lv.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_lv.png" width="350"/>  
    
 ## Getting Started
  

@@ -217,7 +217,7 @@ FPGA Pin Number vs Connector Pins
    
  **Port 2** : The FPGA pin constraints (.ucf) aslo provided.  
    
- <img src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p1_02.png" width="350"/>  
+ <img src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ucf_p2.png" width="350"/>  
    
 ## Getting Started
  

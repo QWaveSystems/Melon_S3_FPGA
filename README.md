@@ -108,7 +108,7 @@ You should have received a copy of the license along with this work. If not, see
 
 ## System Block Diagram
 
-<img src="http://ftp.qwavesys.com/MelonS3/009.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/009.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/009.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/009.png" width="650"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
  
@@ -118,7 +118,7 @@ You should have received a copy of the license along with this work. If not, see
  
 <img src="http://ftp.qwavesys.com/MelonS3/melon_front_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_front_ID.png" width="500"/>
  
- | Position |    Reference    | Description                                               |
+| Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
 |    1     |     CON7001     |   Low Speed Expansion Connector                           |
 |    2     |      U4001      |   8GB EMMC                                                |
@@ -148,7 +148,7 @@ Bottom Side
 
 <img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" width="500"/>
 
- | Position |    Reference    | Description                                               |
+| Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
 |    1     |     CON7001     |   Low Speed Expansion Connector                           |
 |    2     |      U4001      |   8GB EMMC                                                |
@@ -158,7 +158,7 @@ Bottom Side
 
 ## Pin Definition
 
-<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout.png" width="300"/>
 
 FPGA Pin Number for Port 1 & Port 2
 

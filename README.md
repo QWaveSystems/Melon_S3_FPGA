@@ -271,6 +271,6 @@ FPGA Pin Number (Pxx) vs Connector Pins
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 
-## Let try modify the default ESP8266 firmware. 
+## Let try modify and upload the new ESP8266 firmware. 
 
    - 

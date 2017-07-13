@@ -91,19 +91,19 @@ You should have received a copy of the license along with this work. If not, see
 
 ## Introduction
 
- The Melon S3 FPGA is open-source, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.
+ The **Melon S3 FPGA is open-source**, expandable development board perfect for the learning digital circuit design and prototyping of your unique ideas. You can customize the capabilities of the FPGA with snap-on 40-pin "Raspberry Pi HAT". There are serveral shilds in the market offers a low cost module that can be purchased off the shelf. These shiled modules can be plugged directly to the Melon S3 FPGA board for the creation of powerful embedded and digital system applications.
 
 - **Specification**
 
    - OTA (Over-The-Air) Download.bit file to FPGA over the WiFi
-   - Xilinx Spartan 3E FPGA (PQG208) - 500K gates,
+   - **Xilinx Spartan 3E FPGA (PQG208) - 500K gates**,
 (73Kb Distributed RAM, 4 Digital Clock Manager (DCM), 20 Multipliers (18x18), 360 Kb Block RAM)
    - Onboard USB-UART (Silicon Labs) CP2104 for Configuration, Debugging and Power.
-   - WiFi 2.4GHz SoC-WROOM-02, 32-bit MCU (Arduino Compatible) Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
+   - **WiFi 2.4GHz SoC-WROOM-02, 32-bit MCU (Arduino Compatible)** Clock 80MHz, 50KB RAM, Integrated TCP/IP protocol stack.
    - Flash 4MB SPI Flash which is 1MB for MCU Firmware and 3MB for FPGA Bit space.
    - 8 Users LEDs, 4 DIP Switch user button, 1 Reset button
    - Onboard FPGA clock 50MHz
-   - GPIOs 56 PINs *3.3V Tolerant* - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
+   - GPIOs 56 PINs **3.3V Tolerant** - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
    - JTAG Port (*Optional for Program/Debugging)
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)

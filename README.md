@@ -147,9 +147,9 @@ Bottom Side (For Advacnce Users and Special case use ONLY)
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|
-|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi stacked together at P1 Port, In special case, You can powered RPi board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    1     |     (JP2) RPi 3.3 V Jumper|   Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** stacked together **at P1 Port**, In special case, You can powered RPi **Shiled** board at 3.3V P1:1,P1:17 (3V3_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
 |    2     | HSWAP Jumper    |   Set the default state of FPGA Pins, Solder pad jumper is "Open"= Pull-down (by Default), Set the jumper pad to "Closed, (Soldered)"= All the FPGA pins are Pull-Up.|
-|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi are stacked together at P1 Port, if you want to powered RPi board P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
+|    3     |      (JP1) Rpi 5V Jumper  |  Solder pad Jumper is "Open" by Default, But once the Melon FPGA and Raspberry Pi **Shields** are stacked together **at P1 Port**, if you want to powered RPi **Shields**  P1:2,P2:4 (5V_RP) by using the power VUSB (5V) or VIN (5V) from Melon FPGA board, by setting the Jumper "Closed (Soldered)", (For Advacnce Users ONLY), Refer schematic for more information|
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

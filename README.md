@@ -16,13 +16,11 @@ https://www.facebook.com/groups/244230302736445/
  
 - [Introduction](#introduction)
    - Specification
-- System Block Diagram
-- Board Overview
-- TX/RX Jumper Setting
-- Pin Definition
-- Getting Started
-   - Prerequisites
-   - Starting the board for the first time
+- [System Block Diagram](#system-block-diagram)
+- [Board Overview](#board-overview)
+- [TX/RX Jumper Setting](#txrx-jumper-setting)
+- [Pin Definition](#pin-definition)
+- [Getting Started](#getting-started--starting-the-board-for-the-first-time)
 - WiFi Uploader (Upload .bit file over the WiFi)
 - Programming ESP8266 Firmware
 - FPGA Development using Xilinx ISE Webpack
@@ -214,7 +212,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 <img src="http://ftp.qwavesys.com/MelonS3/g003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g003.png" width="400"/> 
 
-   - **Now it's times to try download the a FPGA bit file over the WiFi**
+## OTA Programming (Upload .bit file to flash memory over the WiFi)
    
    - Download the .bit file from **"Bit_File/Fpga.bit"** from this repo. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
    - Click the **"Choose File"**, > Select the **"Fpga.bit"**. > Click **"Update"**, The bit file will be transfer over the WiFi then upload diretly to flash memory, (You will get status "*Update Success!*", If it not please try again), After that board it will reset once, Finally you will see the FPGA start-up with the 8-bit counter circuit again.

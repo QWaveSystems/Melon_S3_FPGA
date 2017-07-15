@@ -246,7 +246,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
    - The shipped Melon S3 MCU firmware is located at **"Firmware/Firmware-MelonS3-v.0.3.ino"** from this repository, Open it with Arduino IDE. Let's modify the WiFi AP name to **"Melon-[Your Name]"** to indicate that this is your board in the WiFi network, You can change default password, if you want to..
    
-   <img src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" width="500"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" width="400"/>
    
 
 

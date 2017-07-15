@@ -21,7 +21,7 @@ https://www.facebook.com/groups/244230302736445/
 - [TX/RX Jumper Setting](#txrx-jumper-setting)
 - [Pin Definition](#pin-definition)
 - [Getting Started](#getting-started--starting-the-board-for-the-first-time)
-- WiFi Uploader (Upload .bit file over the WiFi)
+- [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi)
 - Programming ESP8266 Firmware
 - FPGA Development using Xilinx ISE Webpack
 - FPGA Development using LabVIEW FPGA

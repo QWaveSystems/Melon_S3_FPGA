@@ -18,7 +18,7 @@ https://www.facebook.com/groups/244230302736445/
    - Specification
 - [System Block Diagram](#system-block-diagram)
 - [Board Overview](#board-overview)
-- [TX/RX Jumper Setting](#txrx-jumper-setting)
+- [ESP-PROG (TX/RX) Jumper Setting](#txrx-jumper-setting)
 - [Pin Definition](#pin-definition)
 - [Getting Started](#getting-started--starting-the-board-for-the-first-time)
 - [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi)
@@ -254,9 +254,9 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
    
-   - In order to program ESP8266, The jumper setting must be in the right position, Refer jumber setting section. [TX/RX Jumper Setting](#txrx-jumper-setting). In this case I will keep jumpers open (Removed, Because FPGA shipped example code is already routed ESP TX/EX <----> USB TX/RX inside FPGA chip.
+   - In order to program ESP8266, The jumper setting must be in the right position, . In this case I will leave both jumpers opened (Removed), Because FPGA shipped example bit file is already routed ESP TX/EX <----> USB TX/RX inside FPGA chip. Refer jumber setting section. [TX/RX Jumper Setting](#txrx-jumper-setting)
    
-   - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Max Speed),Select **COM port**.
+   - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Test with Max Speed), Select **COM port**.
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

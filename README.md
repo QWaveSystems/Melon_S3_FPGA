@@ -222,14 +222,25 @@ FPGA Pin Number (Pxx) vs Connector Pins
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 
-## Let try modify and upload the new ESP8266 firmware. 
+## Write your own ESP8266 firmware. (1/2)
+## Install Arduino “QWAVE ESP8266 Board Package”
 
+   - Download a Arduino IDE 1.8.x from "https://www.arduino.cc/en/Main/Software"
+   - Goto "File > Preferences", Then add "http://ftp.qwavesys.com/lvembedded/package_qwavesys_v2_index.json" > Click OK
+   
+<img src="http://ftp.qwavesys.com/MelonS3/arduino_000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_000.png" width="400"/>
 
+ <img src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" width="400"/>
+   
+   - Goto "Tools > Board> Boards Manager ", Install "Embedded LabVIEW Arduino by Qwavesys"
+   
+ <img src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" width="400"/>
+ 
+  <img src="http://ftp.qwavesys.com/MelonS3/arduino_03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="400"/>
+   
+   - Once the installation finished, You can find the "Qwave ESP8266 (LabVIEW)"
 
-
-
-
-Stay tune...... More to come...
+<img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="400"/>
 
 
 

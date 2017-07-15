@@ -256,7 +256,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    - In order to program ESP8266, The jumper setting must be in the right position, . In this case I will leave both jumpers opened (Removed), Because FPGA shipped example bit file is already routed ESP TX/EX <----> USB TX/RX inside FPGA chip. Refer jumber setting section. [TX/RX Jumper Setting](#txrx-jumper-setting)
    
-   - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Test with Max Speed), Select **COM port**.
+   - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Test with Max Speed,If it not working try reduce speed down to 115200), Select **COM port**.
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

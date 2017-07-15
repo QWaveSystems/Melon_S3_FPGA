@@ -242,13 +242,23 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 <img src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" width="400"/>
 
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
 ### (2/2) Start Write your own ESP8266 firmware.
 
-   - The shipped Melon S3 MCU firmware is located at **"Firmware/Firmware-MelonS3-v.0.3.ino"** from this repository, Open it with Arduino IDE. Let's modify the WiFi AP name to **"Melon-[Your Name]"** to indicate that this is your board in the WiFi network, You can change default password, if you want to..
+   - The shipped Melon S3 MCU firmware is located at **"Firmware/Firmware-MelonS3-v.0.3.ino"** from this repository, Open it with Arduino IDE. 
+   
+   - Let's modify the WiFi AP name to **"Melon-[Your Name]"** to indicate that this is your board in the WiFi network, You can change default password, if you want to..
    
    <img src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" width="400"/>
    
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+   
+   - In order to program ESP8266, The jumper setting must be in the right position, Refer jumber setting section. [TX/RX Jumper Setting](#txrx-jumper-setting). In this case I will keep jumpers open (Removed, Because FPGA shipped example code is already routed ESP TX/EX <----> USB TX/RX inside FPGA chip.
+   
+   - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Max Speed),Select **COM port**.
 
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 ## Arduino C/C++ compatible Firmware
 

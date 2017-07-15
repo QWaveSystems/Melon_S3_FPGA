@@ -244,7 +244,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
-### (2/2) Start Write your own ESP8266 firmware.
+### (2/2) Start Writing your own ESP8266 firmware.
 
    - The shipped Melon S3 MCU firmware is located at **"Firmware/Firmware-MelonS3-v.0.3.ino"** from this repository, Open it with Arduino IDE. 
    

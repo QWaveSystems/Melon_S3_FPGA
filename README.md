@@ -214,7 +214,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## OTA Programming (Upload .bit file to flash memory over the WiFi)
    
-   - Download the .bit file from **"Bit_File/Fpga.bit"** from this repo. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
+   - Download the .bit file from **"Bit_File/Fpga.bit"** from this repository. Save it in your local computer. (*It is a .bit file of 8-bit counter circuit that shipped with the board)*
    - Click the **"Choose File"**, > Select the **"Fpga.bit"**. > Click **"Update"**, The bit file will be transfer over the WiFi then upload diretly to flash memory, (You will get status "*Update Success!*", If it not please try again), After that board it will reset once, Finally you will see the FPGA start-up with the 8-bit counter circuit again.
    
 <img src="http://ftp.qwavesys.com/MelonS3/g004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/g004.png" width="400"/>
@@ -242,10 +242,12 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 <img src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" width="400"/>
 
+### (2/2) Start Write your own ESP8266 firmware.
 
-
-
-
+   - The shipped Melon S3 MCU firmware is located at **"Firmware/Firmware-MelonS3-v.0.3.ino"** from this repository, Open it with Arduino IDE. Let's modify the WiFi AP name to **"Melon-[Your Name]"** to indicate that this is your board in the WiFi network, You can change default password, if you want to..
+   
+   <img src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_005.png" width="500"/>
+   
 
 
 ## Arduino C/C++ compatible Firmware

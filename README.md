@@ -14,7 +14,7 @@ https://www.facebook.com/groups/244230302736445/
 
 ### Table of Contents
  
-- Introduction
+- [Introduction](#introduction)
    - Specification
 - System Block Diagram
 - Board Overview

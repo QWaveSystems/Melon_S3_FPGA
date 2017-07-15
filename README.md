@@ -230,17 +230,17 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
 <img src="http://ftp.qwavesys.com/MelonS3/arduino_000.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_000.png" width="400"/>
 
- <img src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" width="400"/>
+ <img src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_001.png" width="500"/>
    
    - Goto "Tools > Board> Boards Manager ", Install "Embedded LabVIEW Arduino by Qwavesys"
    
  <img src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" width="400"/>
  
-  <img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="400"/>
+  <img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="500"/>
    
-   - Once the installation finished, You can find the "Qwave ESP8266 (LabVIEW)"
+   - Once the installation finished, You can find the "Qwave ESP8266 (LabVIEW)" board.
 
-<img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="400"/>
+<img src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_004.png" width="400"/>
 
 
 

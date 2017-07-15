@@ -236,7 +236,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
  <img src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_002.png" width="400"/>
  
-  <img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="500"/>
+  <img src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_003.png" width="600"/>
    
    - Once the installation finished, You can find the "Qwave ESP8266 (LabVIEW)" board.
 

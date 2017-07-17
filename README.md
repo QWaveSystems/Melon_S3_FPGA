@@ -259,6 +259,8 @@ FPGA Pin Number (Pxx) vs Connector Pins
    - Connect the board to development PC, Select **"Qwave ESP8266 (LabVIEW)"** board, Speed **"921600"** (Test with Max Speed,If it not working try reduce the speed down to 115200), Select **COM port**.
    
    <img src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" width="400"/>
+   
+      <img src="http://ftp.qwavesys.com/MelonS3/arduino_007.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_007.png" width="300"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

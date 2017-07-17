@@ -15,7 +15,7 @@ https://www.facebook.com/groups/244230302736445/
 ### Table of Contents
  
 - [Introduction](#introduction)
-   - Specification
+- [Specification](#specification)
 - [System Block Diagram](#system-block-diagram)
 - [Board Overview](#board-overview)
 - [ESP-PROG (TX/RX) Jumper Setting](#txrx-jumper-setting)
@@ -36,7 +36,7 @@ https://www.facebook.com/groups/244230302736445/
 
 <img src="https://f.btwcdn.com/store-21359/product/8be08566-7f0f-38a4-70b2-596acadc54e5.png" data-canonical-src="https://f.btwcdn.com/store-21359/product/8be08566-7f0f-38a4-70b2-596acadc54e5.png" width="500"/>
 
-- **Specification**
+## Specification
 
    - OTA (Over-The-Air) Download.bit file to FPGA over the WiFi
    - **Xilinx Spartan 3E FPGA (PQG208) - 500K gates**,

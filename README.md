@@ -260,6 +260,8 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    <img src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" width="400"/>
    
+   <img src="http://ftp.qwavesys.com/MelonS3/arduino_007.3.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_007.3.png" width="300"/>
+   
    
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

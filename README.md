@@ -290,13 +290,13 @@ FPGA Pin Number (Pxx) vs Connector Pins
 ## Install Melon S3 FPGA : LabVIEW Driver
 
    - Before install LabVIEW driver , Please close all LabVIEW application. In this tutorial is assumed that you already have LabVIEW 2014 (32bit) & LabVIEW 2014 FPGA Toolkit (For Windows) installed in local machine.
-   
-   <img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="650"/>
 
-   - 1. Extract the folder **QwaveSys** to below path
+   - Extract the folder **QwaveSys** to below path.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys
 
-   - 2. Extract the folder "**MelonS3**" to below path 
+<img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="550"/>
+
+   - 2. Extract the folder "**MelonS3**" to below path.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\FPGAPlugInAG\Melon-S3
 
    - 3. At Windows Dev Machine: Copy "**QwaveFpgaLv.dll**" to systems path.

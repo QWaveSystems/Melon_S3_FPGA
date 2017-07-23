@@ -27,6 +27,8 @@ https://www.facebook.com/groups/244230302736445/
 - FPGA Development using LabVIEW FPGA
 - FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
+- [Download Board design files]()
+- 
 
 ***
 
@@ -261,23 +263,17 @@ FPGA Pin Number (Pxx) vs Connector Pins
    <img src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_006.png" width="400"/>
    
    <img src="http://ftp.qwavesys.com/MelonS3/arduino_007.3.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/arduino_007.3.png" width="300"/>
-   
+
+
+## FPGA Development using Xilinx ISE Webpack
+
+
    
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
-## Arduino C/C++ compatible Firmware
 
-Arduino compatible source code for FPGA download functionality and Arduino IDE board package also provided to allowing you to easily modify to program the WROOM-02 using Arduino IDE. 
 
-***Required** "Qwave ESP8266 Board Package" http://ftp.qwavesys.com/lvembedded/package_qwavesys_v2_index.json (*Select the Board : **"Qwave ESP8266 (LabVIEW)**")
-
-![](http://ftp.qwavesys.com/tmp_pics/msc01.png)
-
-**Support programable using LabVIEW and Raspberry Pi Interface (LINX 3.0)**  *For Home/Education Use ONLY.
-
-![](http://ftp.qwavesys.com/tmp_pics/msc02.png)
-
-## Board design files
+## Download Board design files
 
 PDF https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/PDF
 

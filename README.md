@@ -268,15 +268,20 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## FPGA Development using Xilinx ISE Webpack
 
- - The shipped Xilinx ISE VHDL project is located at **"Example_VHDL/Test_LED.zip"** from this repository, Open it with Xilinx ISE. Select **Spartan3E , XC3S500E, PQ208, Speed Grade (-4)**
+ - The shipped example for Xilinx ISE VHDL project is located at **"Example_VHDL/Test_LED.zip"** from this repository, Open it with Xilinx ISE. Refer the setting below **Spartan3E , XC3S500E, PQ208, Speed Grade (-4)**
  
    <img src="http://ftp.qwavesys.com/MelonS3/ise001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise001.png" width="400"/>
+   
+  - At the **LED_SW.vhd**, it is very simple VHDL example the reading the status of DIP switch and display at onboard LEDs.
   
-  -
    <img src="http://ftp.qwavesys.com/MelonS3/ise002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise002.png" width="400"/>
-      
+  
+  - The **Melon_S3.ucf** files also provide for pin constraints.
+  
    <img src="http://ftp.qwavesys.com/MelonS3/ise003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise003.png" width="400"/>
-         
+   
+   - After run **Synthesize > Translate > Place &Route > Generate bit file **, Then you will get **led_sw.bit**, Please rename to "**Fpga.bit**", Then you can use [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi) method to download a bit file to flash memory and run at FPGA.
+   
    <img src="http://ftp.qwavesys.com/MelonS3/ise004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise004.png" width="400"/>
    
    

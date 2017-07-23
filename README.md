@@ -303,7 +303,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd03.png" width="450"/>
 
-   - **Remove** the file below, Before staring LabVIEW ONLY for the first time use. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\***resource_cache.xml**"
+   - **Remove "resource_cache.xml"** the file below, Before staring LabVIEW ONLY for the first time use. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\resource_cache.xml"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd04.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd04.png" width="450"/>
 
@@ -319,9 +319,9 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    - Right click at **"Melon-S3"** select **"New > FPGA I/O"** you will find available IOs for Melon-S3 ready to use within the project. Add them all if you want.
    
-    <img src="http://ftp.qwavesys.com/MelonS3/lvd08.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd08.png" width="400"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd08.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd08.png" width="400"/>
    
-    <img src="http://ftp.qwavesys.com/MelonS3/lvd09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd09.png" width="400"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd09.png" width="400"/>
 
 ## Download Board design files
 

@@ -272,8 +272,6 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
-
-
 ## Download Board design files
 
 PDF https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/PDF
@@ -296,7 +294,8 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 
 8 bit Counter with Raspberry Pi Interface https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW_RaspberryPi_LINX
 
-![](http://ftp.qwavesys.com/tmp_pics/msc03.png)
+
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 ## LICENSE
 
@@ -307,6 +306,10 @@ You should have received a copy of the license along with this work. If not, see
 
 -Melon S3 FPGA Driver for LabVIEW is licensed for Home/Education use ONLY (Non-Commercial purposes)
 
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
 ## Maintainers
 
 Amornthep Phunsin <amornthep@qwavesys.com>
+
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)

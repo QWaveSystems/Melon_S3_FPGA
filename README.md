@@ -315,7 +315,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    <img src="http://ftp.qwavesys.com/MelonS3/lvd06.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd06.png" width="400"/>
    
-   <img src="http://ftp.qwavesys.com/MelonS3/lvd07.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd07.png" width="400"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd07.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd07.png" width="300"/>
    
    - Right click at **"Melon-S3"** select **"New > FPGA I/O"** you will find available IOs for Melon-S3 ready to use within the project. Add them all if you want.
    

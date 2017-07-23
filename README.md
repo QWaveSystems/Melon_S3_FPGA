@@ -322,6 +322,16 @@ FPGA Pin Number (Pxx) vs Connector Pins
    
    <img src="http://ftp.qwavesys.com/MelonS3/lvd09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd09.png" width="400"/>
 
+## FPGA Development using LabVIEW FPGA
+
+  - The shipped example for LabVIEW FPGA is located at **"Example_LabVIEW/Test_Counter.zip"** from this repository, Open the project (**LED.lvproj**) file with LabVIEW.
+ 
+  - Connect development PC with "Melon-S3-xx" WiFi AP. Refer to this step [Getting Started](#getting-started--starting-the-board-for-the-first-time)
+  
+  - Clcik **Run** button, Then observed the LabVIEW front panel and Onboard LEDs, Then you can adjust the **Count(mSec)** value to see the result in debugging mode.
+    
+  <img src="http://ftp.qwavesys.com/MelonS3/lv001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd001.png" width="400"/>
+
 ## Mechanical Specification
 
    <img src="http://ftp.qwavesys.com/MelonS3/mech.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/mech.png" width="400"/>
@@ -347,7 +357,6 @@ https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_VHDL
 8 bit Counter Example https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW
 
 8 bit Counter with Raspberry Pi Interface https://github.com/QWaveSystems/Melon_S3_FPGA/tree/master/Example_LabVIEW_RaspberryPi_LINX
-
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

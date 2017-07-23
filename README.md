@@ -24,7 +24,7 @@ https://www.facebook.com/groups/244230302736445/
 - [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi)
 - [Write your own ESP8266 firmware.](#write-your-own-esp8266-firmware)
 - [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
-- [Install Melon S3 FPGA : LabVIEW Driver]()
+- [Install Melon S3 FPGA : LabVIEW Driver](#install-melon-s3-fpga--labview-driver)
 - FPGA Development using LabVIEW FPGA
 - FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
@@ -289,36 +289,39 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## Install Melon S3 FPGA : LabVIEW Driver
 
-   - Before install LabVIEW driver , Please close all LabVIEW application. In this tutorial is assumed that you already have LabVIEW 2014 (32bit) & LabVIEW 2014 FPGA Toolkit (For Windows) installed in local machine.
+   - Before install LabVIEW driver , Please close all LabVIEW application. In this tutorial is assumed that you already have **LabVIEW 2014 (32bit) & LabVIEW 2014 FPGA Toolkit (For Windows)** installed in local machine.
 
-   - Extract the folder **QwaveSys** to below path.
-C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys
+   - Extract the folder **QwaveSys** to path. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="450"/>
 
-   - 2. Extract the folder "**MelonS3**" to below path.
-C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\FPGAPlugInAG\Melon-S3
+   - Extract the folder "**MelonS3**" to path. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\FPGAPlugInAG\Melon-S3"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd02.png" width="450"/>
    
-   - 3. At Windows Dev Machine: Copy "**QwaveFpgaLv.dll**" to systems path.
-C:\Windows\System32\QwaveFpgaLv.dll
+   - At Windows Dev Machine: Copy "**QwaveFpgaLv.dll**" to systems path. "C:\Windows\System32\QwaveFpgaLv.dll"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd03.png" width="450"/>
 
-   - 4.**Remove** the file below, Before staring LabVIEW only for the first time use.
-C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\***resource_cache.xml**
+   - **Remove** the file below, Before staring LabVIEW ONLY for the first time use. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\***resource_cache.xml**"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd04.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd04.png" width="450"/>
 
-   - 5.Extract the folder "**HDL**" to below path.
-C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi\HDL
+   - Extract the folder "**HDL**" to path. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi\HDL"
 
    <img src="http://ftp.qwavesys.com/MelonS3/lvd05.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd05.png" width="450"/>
 
-   - 6. Start LabVIEW > Create LabVIEW Empty Project > 
+   - Start **LabVIEW > Create LabVIEW Empty Project**, Under **"My Computer"** Select **"Target and Device**, you will find **"Melon-S3" under "3rd Party group"**
    
-      <img src="http://ftp.qwavesys.com/MelonS3/lvd06.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd06.png" width="450"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd06.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd06.png" width="400"/>
+   
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd07.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd07.png" width="400"/>
+   
+   - Right click at **"Melon-S3"** select **"New > FPGA I/O"** you will find available IOs for Melon-S3 ready to use within the project. Add them all if you want.
+   
+    <img src="http://ftp.qwavesys.com/MelonS3/lvd08.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd08.png" width="400"/>
+   
+    <img src="http://ftp.qwavesys.com/MelonS3/lvd09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd09.png" width="400"/>
 
 ## Download Board design files
 

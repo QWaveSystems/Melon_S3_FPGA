@@ -280,7 +280,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
   
    <img src="http://ftp.qwavesys.com/MelonS3/ise003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise003.png" width="400"/>
    
-   - After run **Synthesize > Translate > Place &Route > Generate bit file **, Then you will get **led_sw.bit**, Please rename to "**Fpga.bit**", Then you can use [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi) method to download a bit file to flash memory and run at FPGA.
+   - After run **Synthesize > Translate > Place &Route > Generate bit file** , Then you will get **led_sw.bit**, Please rename to "**Fpga.bit**", Then you can use [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi) method to download a bit file to flash memory and run at FPGA.
    
    <img src="http://ftp.qwavesys.com/MelonS3/ise004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise004.png" width="400"/>
    

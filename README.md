@@ -268,8 +268,11 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## FPGA Development using Xilinx ISE Webpack
 
+ - The shipped Xilinx ISE VHDL project is located at **"Example_VHDL/Test_LED.zip"** from this repository, Open it with Xilinx ISE. Select **Spartan3E , XC3S500E, PQ208, Speed Grade (-4)**
+ 
    <img src="http://ftp.qwavesys.com/MelonS3/ise001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise001.png" width="400"/>
-   
+  
+  -
    <img src="http://ftp.qwavesys.com/MelonS3/ise002.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise002.png" width="400"/>
       
    <img src="http://ftp.qwavesys.com/MelonS3/ise003.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise003.png" width="400"/>

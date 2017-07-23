@@ -294,21 +294,31 @@ FPGA Pin Number (Pxx) vs Connector Pins
    - Extract the folder **QwaveSys** to below path.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys
 
-<img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="550"/>
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="450"/>
 
    - 2. Extract the folder "**MelonS3**" to below path.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\FPGAPlugInAG\Melon-S3
 
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd02.png" width="450"/>
+   
    - 3. At Windows Dev Machine: Copy "**QwaveFpgaLv.dll**" to systems path.
 C:\Windows\System32\QwaveFpgaLv.dll
+
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd03.png" width="450"/>
 
    - 4.**Remove** the file below, Before staring LabVIEW only for the first time use.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\***resource_cache.xml**
 
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd04.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd04.png" width="450"/>
+
    - 5.Extract the folder "**HDL**" to below path.
 C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi\HDL
 
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd05.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd05.png" width="450"/>
+
    - 6. Start LabVIEW > Create LabVIEW Empty Project > 
+   
+      <img src="http://ftp.qwavesys.com/MelonS3/lvd06.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd06.png" width="450"/>
 
 ## Download Board design files
 

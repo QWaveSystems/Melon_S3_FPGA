@@ -23,12 +23,13 @@ https://www.facebook.com/groups/244230302736445/
 - [Getting Started](#getting-started--starting-the-board-for-the-first-time)
 - [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi)
 - [Write your own ESP8266 firmware.](#write-your-own-esp8266-firmware)
-- FPGA Development using Xilinx ISE Webpack
+- [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
 - FPGA Development using LabVIEW FPGA
 - FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
-- [Download Board design files]()
-- 
+- [Download Board design files](#download-board-design-files)
+- [License](#license)
+- [Maintainer](#maintainer)
 
 ***
 

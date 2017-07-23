@@ -26,7 +26,6 @@ https://www.facebook.com/groups/244230302736445/
 - [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
 - [Install Melon S3 FPGA : LabVIEW Driver](#install-melon-s3-fpga--labview-driver)
 - FPGA Development using LabVIEW FPGA
-- FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
 - [Download Board design files](#download-board-design-files)
 - [License](#license)

@@ -26,7 +26,7 @@ https://www.facebook.com/groups/244230302736445/
 - [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
 - [Install Melon S3 FPGA : LabVIEW Driver](#install-melon-s3-fpga--labview-driver)
 - FPGA Development using LabVIEW FPGA
-- Mechanical Specification
+- [Mechanical Specification](#mechanical-specification)
 - [Download Board design files](#download-board-design-files)
 - [License](#license)
 - [Maintainer](#maintainer)
@@ -321,6 +321,10 @@ FPGA Pin Number (Pxx) vs Connector Pins
    <img src="http://ftp.qwavesys.com/MelonS3/lvd08.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd08.png" width="400"/>
    
    <img src="http://ftp.qwavesys.com/MelonS3/lvd09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd09.png" width="400"/>
+
+## Mechanical Specification
+
+   <img src="http://ftp.qwavesys.com/MelonS3/mech.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/mech.png" width="400"/>
 
 ## Download Board design files
 

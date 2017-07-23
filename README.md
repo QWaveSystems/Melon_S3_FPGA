@@ -24,6 +24,7 @@ https://www.facebook.com/groups/244230302736445/
 - [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi)
 - [Write your own ESP8266 firmware.](#write-your-own-esp8266-firmware)
 - [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
+- [Install Melon S3 FPGA : LabVIEW Driver]()
 - FPGA Development using LabVIEW FPGA
 - FPGA Development using LabVIEW FPGA and LINX 3.0 (Raspberry Pi)
 - Mechanical Specification
@@ -59,7 +60,7 @@ https://www.facebook.com/groups/244230302736445/
 <img src="http://ftp.qwavesys.com/MelonS3/009.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/009.png" width="650"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
- 
+  
 ## Board Overview
  
  **Front Side**
@@ -283,9 +284,31 @@ FPGA Pin Number (Pxx) vs Connector Pins
    - After run **Synthesize > Translate > Place &Route > Generate bit file** , Then you will get **led_sw.bit**, Please rename to "**Fpga.bit**", Then you can use [OTA Programming (Upload .bit file to flash memory over the WiFi)](#ota-programming-upload-bit-file-to-flash-memory-over-the-wifi) method to download a bit file to flash memory and run at FPGA.
    
    <img src="http://ftp.qwavesys.com/MelonS3/ise004.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise004.png" width="400"/>
-   
-   
+      
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
+## Install Melon S3 FPGA : LabVIEW Driver
+
+   - Before install LabVIEW driver , Please close all LabVIEW application. In this tutorial is assumed that you already have LabVIEW 2014 (32bit) & LabVIEW 2014 FPGA Toolkit (For Windows) installed in local machine.
+   
+   <img src="http://ftp.qwavesys.com/MelonS3/lvd01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvd01.png" width="650"/>
+
+   - 1. Extract the folder **QwaveSys** to below path
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys
+
+   - 2. Extract the folder "**MelonS3**" to below path 
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\FPGAPlugInAG\Melon-S3
+
+   - 3. At Windows Dev Machine: Copy "**QwaveFpgaLv.dll**" to systems path.
+C:\Windows\System32\QwaveFpgaLv.dll
+
+   - 4.**Remove** the file below, Before staring LabVIEW only for the first time use.
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\***resource_cache.xml**
+
+   - 5.Extract the folder "**HDL**" to below path.
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\rvi\HDL
+
+   - 6. Start LabVIEW > Create LabVIEW Empty Project > 
 
 ## Download Board design files
 

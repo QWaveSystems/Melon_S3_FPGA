@@ -58,7 +58,7 @@ https://www.facebook.com/groups/244230302736445/
    - GPIOs 56 PINs **3.3V Tolerant** - 40 PINs x2 (Raspberry Pi 40 PINs Compatible)
    - JTAG Port (*Optional for Program/Debugging)
    
-   <img src="http://ftp.qwavesys.com/MelonS3/wroom02.jpg" data-canonical-src="http://ftp.qwavesys.com/MelonS3/wroom02.jpg" width="350"/>
+    <img src="http://ftp.qwavesys.com/MelonS3/wroom02.jpg" data-canonical-src="http://ftp.qwavesys.com/MelonS3/wroom02.jpg" width="450"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

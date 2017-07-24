@@ -66,6 +66,8 @@ https://www.facebook.com/groups/244230302736445/
 
 <img src="http://ftp.qwavesys.com/MelonS3/009.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/009.png" width="650"/>
 
+In addition, The Melon S3 FPGA can be programmed using established development tools, such as [Xilinx ISE (Free: Webpack)](https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html), MATLAB HDL Coder/HDL Verifier and National Instruments LabVIEW FPGA Toolkit. Lastly, MCU ESP8266 (WROOM-02) can be programmed using Arduino IDE.
+
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
   
 ## Board Overview

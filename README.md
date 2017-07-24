@@ -332,7 +332,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
   - The shipped example for LabVIEW FPGA is located at **"Example_LabVIEW/Test_Counter.zip"** from this repository, Open the project (**LED.lvproj**) file with LabVIEW.
  
-  - Connect development PC with "Melon-S3-xx" WiFi AP. Refer to this step [Getting Started](#getting-started--starting-the-board-for-the-first-time)
+  - Connect development PC with "**Melon-S3-xx**" WiFi AP. Refer to this step [Getting Started](#getting-started--starting-the-board-for-the-first-time)
   
   - Clcik **Run** button, Then observed the LabVIEW front panel and Onboard LEDs, Then you can adjust the **Count(mSec)** value to see the result in debugging mode.
     

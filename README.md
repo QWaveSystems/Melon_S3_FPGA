@@ -349,6 +349,8 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 
 ## LabVIEW FPGA Development: Create a build specification to build a .bit file.
 
+  <img src="http://ftp.qwavesys.com/MelonS3/lvb01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb01.png" width="400"/>
+
 ## LabVIEW FPGA Development: Export .bit file.
 
 ## LabVIEW FPGA Development: Additional Tools.
@@ -359,7 +361,7 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 
 Using Arduino IDE you can write your own firmware running in MCU (WROOM-02), This allows your FPGA designs to talk to the microcontroller, giving you develop the MCU + FPGA for co-processing application.
 
-  <img src="http://ftp.qwavesys.com/MelonS3/lvar001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvar001.png" width="400"/>
+  <img src="http://ftp.qwavesys.com/MelonS3/lvar001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvar001.png" width="500"/>
 
 ## LabVIEW FPGA Development: Host-Target Architecture: (Raspberry Pi CPU) <-> (FPGA).
 

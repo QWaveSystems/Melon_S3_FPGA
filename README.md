@@ -66,7 +66,7 @@ https://www.facebook.com/groups/244230302736445/
 
 <img src="http://ftp.qwavesys.com/MelonS3/009.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/009.png" width="650"/>
 
-In addition, The Melon S3 FPGA can be programmed using established development tools, such as [Xilinx ISE (Free: Webpack)](https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html), MATLAB HDL Coder/HDL Verifier and National Instruments LabVIEW FPGA Toolkit. Lastly, MCU ESP8266 (WROOM-02) can be programmed using Arduino IDE.
+In addition, The Melon S3 FPGA can be programmed using established development tools, such as [Xilinx ISE (Free: Webpack)](https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html), [MATLAB HDL Coder/HDL Verifier](https://www.mathworks.com/solutions/hdl-code-generation-verification.html) and [National Instruments LabVIEW FPGA Toolkit](http://www.ni.com/labview/fpga/). Lastly, MCU ESP8266 (WROOM-02) can be programmed using Arduino IDE.
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
   
@@ -278,6 +278,8 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## FPGA Development using Xilinx ISE Webpack
 
+ [ISE® WebPACK™](https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html) design software is the industry´s only FREE, fully featured front-to-back FPGA design solution. ISE WebPACK is the ideal downloadable solution for FPGA and offering HDL synthesis and simulation, implementation, device fitting, and JTAG programming. ISE WebPACK delivers a complete, front-to-back design flow providing instant access to the ISE features and functionality at no cost. Xilinx has created a solution that allows convenient productivity by providing a design solution that is always up to date with error-free downloading and single file installation. **After generated *.bit file you can then upload it to the Melon S3 FPGA via WiFi.**
+ 
  - The shipped example for Xilinx ISE VHDL project is located at **"Example_VHDL/Test_LED.zip"** from this repository, Open it with Xilinx ISE. Refer the setting below **Spartan3E , XC3S500E, PQ208, Speed Grade (-4)**
  
    <img src="http://ftp.qwavesys.com/MelonS3/ise001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/ise001.png" width="400"/>
@@ -298,6 +300,8 @@ FPGA Pin Number (Pxx) vs Connector Pins
 
 ## Install Melon S3 FPGA : LabVIEW Driver
 
+The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIEW graphical development platform to target FPGAs. LabVIEW FPGA gives developers the ability to more efficiently and effectively design complex systems by providing a highly integrated development environment, a large ecosystem of IP libraries, a high-fidelity simulator, and debugging features.
+ 
    - Before install LabVIEW driver , Please close all LabVIEW application. In this tutorial is assumed that you already have **LabVIEW 2014 (32bit) & LabVIEW 2014 FPGA Toolkit (For Windows)** installed in local machine.
 
    - Extract the folder **QwaveSys** to path. "C:\Program Files (x86)\National Instruments\LabVIEW 2014\Targets\NI\FPGA\QwaveSys"
@@ -352,6 +356,10 @@ FPGA Pin Number (Pxx) vs Connector Pins
 ## LabVIEW FPGA Development: Generate Control define for Arduino.
 
 ## LabVIEW FPGA Development: Host-Target Architecture: (Arduino MCU) <-> (FPGA).
+
+Using Arduino IDE you can write your own firmware running in MCU (WROOM-02), This allows your FPGA designs to talk to the microcontroller, giving you develop the MCU + FPGA for co-processing application.
+
+  <img src="http://ftp.qwavesys.com/MelonS3/lvar001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvar001.png" width="400"/>
 
 ## LabVIEW FPGA Development: Host-Target Architecture: (Raspberry Pi CPU) <-> (FPGA).
 

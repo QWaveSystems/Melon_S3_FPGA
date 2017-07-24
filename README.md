@@ -25,7 +25,7 @@ https://www.facebook.com/groups/244230302736445/
 - [Write your own ESP8266 firmware.](#write-your-own-esp8266-firmware)
 - [FPGA Development using Xilinx ISE Webpack](#fpga-development-using-xilinx-ise-webpack)
 - [Install LabVIEW FPGA Driver](#install-melon-s3-fpga--labview-driver)
-- [LabVIEW FPGA Development: Demo (Debug Mode over WiFi)](#fpga-development-using-labview-fpga)
+- [LabVIEW FPGA Development: Demo (Debug Mode over WiFi)](#labview-fpga-development-demo-debug-mode-over-wifi)
 - [LabVIEW FPGA Development: Create a build specification to build a .bit file]()
 - [LabVIEW FPGA Development: Export .bit file]()
 - [LabVIEW FPGA Development: Additional Tools]()

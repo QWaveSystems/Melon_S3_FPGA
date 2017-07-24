@@ -350,9 +350,14 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
-## LabVIEW FPGA Development: Create a build specification to build a .bit file.
+## LabVIEW FPGA Development: Create a build specification to generate a .bit file.
 
+
+   -  **Right Click** at the VI (xx.vi) > **Create Build Specification**
+  
   <img src="http://ftp.qwavesys.com/MelonS3/lvb01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb01.png" width="400"/>
+  
+   -  
   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb02.png" width="400"/>
     

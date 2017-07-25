@@ -353,18 +353,24 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 ## LabVIEW FPGA Development: Create a build specification to generate a .bit file.
 
 
-   -  **Right Click** at the VI (xx.vi) > **Create Build Specification**
+   -  **Right Click** at the VI (.vi) > **Create Build Specification**
   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb01.png" width="400"/>
   
-   -  
+   -  Under **Build Specification** > **Right Click** > Select : **Properties**
   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb02.png" width="400"/>
     
+   -  Select **Run when loaded to FPGA**
+    
   <img src="http://ftp.qwavesys.com/MelonS3/lvb03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb03.png" width="400"/>
-      
+   
+   -  **Right Click** then, Select **Build**
+   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb04.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb04.png" width="400"/>
-  
+   
+   -  Select the **Use the Local Compile server** or Network/Cloud server. ([NI LabVIEW 2014 FPGA Module Xilinx Compilation Tools for Windows](http://www.ni.com/download/labview-fpga-module-2014/4845/en/) is required for local compilation. After finished you will get the output bit file at **"FPGA Bitfiles"** folder.
+   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb05.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb05.png" width="400"/>
   
   <img src="http://ftp.qwavesys.com/MelonS3/lvb06.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb06.png" width="400"/>
@@ -373,17 +379,38 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
-## LabVIEW FPGA Development: Export .bit file.
-
-[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
-
 ## LabVIEW FPGA Development: Additional Tools.
 
+   - Right Click at the VI you will get additional tool fo Melon S3 FPGA:
+     
+         - **Gen Bit File...** (Generate a bit file from build specification)
+         - **Download VI To Flash Memory** (Download bit file to flash memory over WiFi, This will be done automatically.)
+         - **Set FPGA Download As Startup** (Set FPGA code at startup, This action will be set "startup=1" at config.json file)
+         - **Unset FPGA Download As Startup** (Unset FPGA code at startup, This action will be set "startup=0" at config.json file)
+         - **Get Controls Define For Arduino** (Lists all LabVIEW front panel/controls for Arduino interface, Refer more detail to the next topic)
+         - **Reboot** To view or download the file (This will send FPGA "reboot" command to the Melon FPGA board)
+
+  <img src="http://ftp.qwavesys.com/MelonS3/lvb09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb09.png" width="400"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
+## LabVIEW FPGA Development: Export .bit file.
+
+   -  Select **"Gen Bit File.."** function, Then you will get **Fpga.bit** locaed at "FPGA Bitfiles" folder.
+
+  <img src="http://ftp.qwavesys.com/MelonS3/lvb08.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb08.png" width="400"/>
+
+[Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
+
+
 
 ## LabVIEW FPGA Development: Generate Control define for Arduino.
 
+  -  Select **"Get Controls Define For Arduino"** function, Then you will get front panel control/indicator define to use in Arduino Code, Copy them and place at the top of Arduino C/C++ code. Refer next topic for example.
+
+  <img src="http://ftp.qwavesys.com/MelonS3/lvb11.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb11.png" width="400"/>
+
+  <img src="http://ftp.qwavesys.com/MelonS3/lvb10.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb10.png" width="400"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

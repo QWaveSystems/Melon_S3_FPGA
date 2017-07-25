@@ -4,7 +4,7 @@ In order to support our work please consider supporting by donation or purchase 
 
 https://www.paypal.me/qwavesystems
 
-# How to get a developement board
+# How to get a development board.
 
 https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
 

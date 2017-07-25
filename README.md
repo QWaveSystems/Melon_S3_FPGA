@@ -423,6 +423,8 @@ Using Arduino IDE you can write your own firmware running in MCU (WROOM-02), Thi
 
 ## LabVIEW FPGA Development: Host-Target Architecture: (Raspberry Pi CPU) <-> (FPGA).
 
+  <img src="http://ftp.qwavesys.com/MelonS3/lvp001.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvp001.png" width="350"/>
+
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 
 ## Mechanical Specification

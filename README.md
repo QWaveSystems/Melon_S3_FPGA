@@ -383,11 +383,11 @@ The [NI LabVIEW FPGA Module](http://www.ni.com/labview/fpga/) extends the LabVIE
 
    - Right Click at the VI you will get additional tool fo Melon S3 FPGA:
      
-         - **Gen Bit File...** (Generate a bit file from build specification)
-         - **Download VI To Flash Memory** (Download bit file to flash memory over WiFi, This will be done automatically.)
-         - **Set FPGA Download As Startup** (Set FPGA code at startup, This action will be set "startup=1" at config.json file)
-         - **Unset FPGA Download As Startup** (Unset FPGA code at startup, This action will be set "startup=0" at config.json file)
-         - **Get Controls Define For Arduino** (Lists all LabVIEW front panel/controls for Arduino interface, Refer more detail to the next topic)
+        - **Gen Bit File...** (Generate a bit file from build specification)
+        - **Download VI To Flash Memory** (Download bit file to flash memory over WiFi, This will be done automatically.)
+        - **Set FPGA Download As Startup** (Set FPGA code at startup, This action will be set "startup=1" at config.json file)
+        - **Unset FPGA Download As Startup** (Unset FPGA code at startup, This action will be set "startup=0" at config.json file)
+        - **Get Controls Define For Arduino** (Lists all LabVIEW front panel/controls for Arduino interface, Refer more detail to the next topic)
          - **Reboot** To view or download the file (This will send FPGA "reboot" command to the Melon FPGA board)
 
   <img src="http://ftp.qwavesys.com/MelonS3/lvb09.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/lvb09.png" width="400"/>

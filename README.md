@@ -101,7 +101,7 @@ In addition, The Melon S3 FPGA can be programmed using established development t
 
 **Bottom Side** (Solder pad jumper for the users are willing to use with **Raspberry Pi Shileds**)
 
-<img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/melon-back_ID_02.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon-back_ID_02.png" width="500"/>
 
 | Position |    Reference    | Description                                               |
 |:--------:|:---------------:|:----------------------------------------------------------|

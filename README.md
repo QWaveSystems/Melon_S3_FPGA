@@ -123,7 +123,7 @@ USB TX/RX and ESP TX/RX pins also routed to FPGA refer the diagram below, You ca
 
 ## Pin Definition
 
-<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout03.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout03.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/melon_pinout04.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_pinout04.png" width="500"/>
 
 **Port1**
 

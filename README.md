@@ -117,7 +117,7 @@ In addition, The Melon S3 FPGA can be programmed using established development t
 
 USB TX/RX and ESP TX/RX pins also routed to FPGA refer the diagram below, You can writed the FPGA code to set jumper internally. In this case you can re-program the ESP8266 firmware without any jumpers.
 
-<img src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01_.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01_.png" width="500"/>
+<img src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" data-canonical-src="http://ftp.qwavesys.com/MelonS3/melon_txrx_set_01.png" width="500"/>
 
 [Back to top](#melon-s3-fpga-development-board-hardware-user-manual)
 

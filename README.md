@@ -1,9 +1,5 @@
 # Melon S3 FPGA Development Board Hardware User Manual
 
-In order to support our work please consider supporting us by donation or purchase the dev kit board.
-
-https://www.paypal.me/qwavesystems
-
 # How to get a development board.
 
 https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967

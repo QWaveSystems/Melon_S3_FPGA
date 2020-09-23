@@ -2,7 +2,7 @@
 
 # How to get a development board.
 
-https://qwavesys.bentoweb.com/en/product/346754/MelonS3?category_id=84967
+https://www.qwaveshop.com/en/product/340843/product-340843
 
 # Community Support Forums
 

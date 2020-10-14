@@ -235,7 +235,7 @@ FPGA Pin Number (Pxx) vs Connector Pins
 ### (1/2) Install Arduino “QWAVE ESP8266 Board Package”
 
    - Download a Arduino IDE 1.8.x from "https://www.arduino.cc/en/Main/Software"
-   - Goto "File > Preferences", Then add "http://ftp.qwavesys.com/lvembedded/package_qwavesys_v2_index.json" > Click OK
+   - Goto "File > Preferences", Then add "http://ftp1.qwavesys.com/lvembedded/package_qwavesys_v2_index.json" > Click OK
    
 <img src="http://ftp1.qwavesys.com/repository/MelonS3/arduino_000.png" data-canonical-src="http://ftp1.qwavesys.com/repository/MelonS3/arduino_000.png" width="400"/>
 
